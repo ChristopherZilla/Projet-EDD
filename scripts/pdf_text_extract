@@ -1,0 +1,117 @@
+#! /bin/sh
+
+SORTIE_TXT=$DIRSPOOL
+ENTREE=$DIRSPOOL
+DEPART=`pwd`
+EXT="txt"
+PAR_ID=`date '+%Y-%m-%d_%H-%M-%S'`
+XEDIX_ID=`date '+%Y%m%d%H%M%S'`
+PAR_DTD="pdftotxt.dtd"
+SORTIE_DTD="converted_pdf/${PAR_DTD}"
+BASE=
+CHEMIN=
+OPTIONS=
+
+while [ $# -ge 1 ]
+do
+MYARGS=$1
+if [ $MYARGS = "-base" ]
+	then
+		shift
+		BASE=$1
+		
+elif [ -d "$MYARGS" ]
+	then
+		CHEMIN=$1
+else
+		OPTIONS=`echo "$OPTIONS $MYARGS"`
+fi
+
+shift
+done
+echo "CHEMIN: $CHEMIN"
+echo "BASE: $BASE"
+
+if [ dpkg -s poppler-utils ]
+then
+	echo "poppler-utils est déjà installé"
+else
+	echo "poppler-utils n'est pas installé"
+	sudo apt-get install poppler-utils
+fi
+
+if [ -z $ENTREE]
+then
+	echo "entree est vide"
+fi
+
+if [ -n $ENTREE ]
+then
+	echo "On va utiliser le paramètre d'entrée"
+	ENTREE=$CHEMIN
+else 
+	echo "Aucune entree"
+	exit 1
+fi
+
+echo "Entrée est: ${ENTREE}"
+
+
+#On se déplace à l'endroit où se trouve les images, le spooler.
+
+cd $ENTREE
+echo `pwd`
+if [ -d "${ENTREE}/converted_pdf" ]
+then
+	echo "Le dossier converted_pdf existe"
+else
+	mkdir converted_pdf
+	echo "Dossier converted_pdf crée"
+fi
+
+SORTIE_TXT="${ENTREE}/converted_pdf"
+
+if [ -f "${ENTREE}/${SORTIE_DTD}" ]
+then
+	echo "La dtd $PAR_DTD existe"
+else
+	echo "Création de la dtd ${PAR_DTD}"
+	SORTIE_DTD="${ENTREE}/${SORTIE_DTD}"
+	echo '<!ELEMENT doc (a*)>
+<!ATTLIST doc id ID #REQUIRED>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a href CDATA #REQUIRED>' >> $SORTIE_DTD
+fi
+
+SORTIE_XML="${SORTIE_TXT}/xmlpdftotxt-${PAR_ID}.xml"
+echo $SORTIE_XML
+
+
+# On écrit le débu du fichier qui fera référence aux miniatures
+echo '<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE doc SYSTEM "'${PAR_DTD}'">
+<?XEDIX id '${XEDIX_ID}'?>
+<?XEDIX class DO?>
+<doc id="pdftotxt-'${PAR_ID}'">' >> $SORTIE_XML
+
+#Génération des images | 2>/dev/null pour envoyer les erreurs vers le dossier de destruction
+echo `pwd`
+echo `ls`
+
+for document in `ls *.pdf 2>/dev/null`
+do
+	
+	doc=${document%%.*}
+	doctxt="${doc}.${EXT}"
+	echo $doctxt
+	echo `pdftotext ${document} "${SORTIE_TXT}/${doctxt}"`
+	echo '<a href="'${SORTIE_TXT}/${doctxt}'"/>' >> ${SORTIE_XML}
+	echo " $document a été converti en texte vers ${SORTIE_TXT}/${doctxt}"
+done
+
+echo '</doc>' >> ${SORTIE_XML}
+
+echo "Chemin des fichiers: $SORTIE_XML"
+cd $DEPART
+echo "On se place où l'on peut exécuter rempli_base: $DEPART"
+./rempli_base ${BASE} ${sortie_xml} ${OPTIONS}

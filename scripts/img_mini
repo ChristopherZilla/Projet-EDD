@@ -1,0 +1,110 @@
+#! /bin/sh
+
+PAR_ID=`date '+%Y-%m-%d_%H-%M-%S'`
+XEDIX_ID=`date '+%Y%m%d%H%M%S'`
+SORTIE_XML="xmlminia-${PAR_ID}.xml"
+PAR_DTD="miniadtd.dtd"
+SORTIE_DTD="miniatures/${PAR_DTD}"
+DEPART=`pwd`
+ENTREE="${DIRSPOOL}"
+BASE=
+CHEMIN=
+OPTIONS=
+
+while [ $# -ge 1 ]
+do
+MYARGS=$1
+if [ $MYARGS = "-base" ]
+	then
+		shift
+		BASE=$1
+		
+elif [ -d "$MYARGS" ]
+	then
+		CHEMIN=$1
+else
+		OPTIONS=`echo "$OPTIONS $MYARGS"`
+fi
+
+shift
+done
+echo "CHEMIN: $CHEMIN"
+echo "BASE: $BASE"
+
+if [ dpkg -s imagemagick ]
+then
+	echo "imagemagick est déjà installé"
+else
+	echo "imagemagick n'est pas installé"
+	sudo apt-get install imagemagick
+fi
+
+
+if [ -z $ENTREE]
+	then
+		echo "entree est vide"
+fi
+if [ -n $ENTREE ]
+	then
+		echo "On va utiliser le paramètre d'entrée"
+		ENTREE=$CHEMIN
+	else 
+		echo "Aucune entree"
+		exit 1
+fi
+echo "Entrée est: ${ENTREE}"
+
+
+#Si le spooler est désactivé, on prends le chemin mit en paramètres
+
+cd $ENTREE
+echo `pwd`
+if [ -d "${ENTREE}/miniatures" ]
+then
+	echo "Le dossier minature existe"
+else
+	mkdir miniatures
+	echo "Dossier ${ENTREE}/miniatures crée"
+fi
+
+#Ecriture de la DTD relative au fichier XML
+if [ -f "${ENTREE}/${SORTIE_DTD}" ]
+then
+	echo "La dtd $PAR_DTD existe"
+else
+	echo "Création de la dtd ${PAR_DTD}"
+	SORTIE_DTD="${ENTREE}/${SORTIE_DTD}"
+	echo '<!ELEMENT doc (img*)>
+<!ATTLIST doc id ID #REQUIRED>
+<!ELEMENT img (#PCDATA)>
+<!ATTLIST img src CDATA #REQUIRED>' >> $SORTIE_DTD
+fi
+
+SORTIE_XML="${ENTREE}/miniatures/xmlminia-${PAR_ID}.xml"
+
+
+# On écrit le début du fichier qui fera référence aux miniatures
+echo '<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE doc SYSTEM "'${PAR_DTD}'">
+<?XEDIX id '${XEDIX_ID}'?>
+<?XEDIX class DO?>
+<doc id="minatures-'${PAR_ID}'">' >> $SORTIE_XML
+
+#Génération des images | 2>/dev/null pour envoyer les erreurs vers le dossier de destruction. On écrit la référence dans le fichier xml.
+for image in `ls *.png *.jpg *.jpeg *.gif 2>/dev/null`
+do
+	#convert $image -size '200x200>' miniatures/$image
+	convert $image -thumbnail '200x200>' miniatures/$image
+	echo '<img src="'${ENTREE}'/miniatures/'${image}'"/>' >> $SORTIE_XML
+	echo " $image a été converti en miniature"
+done
+
+# On écrit la fin du fichier xml faisant référence aux miniatures.
+echo '</doc>' >> $SORTIE_XML
+
+#Lancement de l'importation
+echo "Chemin du fichier xml: $SORTIE_XML"
+cd $DEPART
+echo "On se place où l'on peut exécuter rempli_base: $DEPART"
+./rempli_base ${BASE} ${SORTIE_XML} ${OPTIONS}
+#rmdir $ESPACEORI!

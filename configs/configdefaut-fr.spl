@@ -1,0 +1,1039 @@
+[COMMUN]
+FERREUR=INSTALL_DIR/log/erreurs
+DTDSINI=INSTALL_DIR/resources/dtds.ini
+TYPEBASE=Clio
+LISTEDOCSHOME=BASES_DIR/DNOMBASE/Clio/Listedocs
+LISTELOCK=yes
+SHMPRIVKEYS=/dev/shm/XXXPRIVKEYSXXX-DNOMBASE
+FZONE=INSTALL_DIR/resources/DSTYLES/style.zon
+FLEX=INSTALL_DIR/resources/DSTYLES/xedix.lex
+DATEMSK=INSTALL_DIR/resources/mskfile
+LC_TIME=DLCTIME
+XINDEXTYPE=rex2
+XINDEXMOT3=no
+XINDEXBALENC=128
+MIMESUFFIXE=gif;jpg;jpeg;png;cgm;tif;tiff;rtf;ps;eps;epsi;mpg;mpeg;mp3;ra;vec;dtd;css;spsh;pdf;doc;m2a;m2v;pls;xsl;bindings;bmp;js;rm;rpls;fig;tsp;vob;avi;avils;ppt;bin;xls;txt;m3u;rv;ogg;epub;tar;tgz;gz;zip
+MIMETYPE=image/gif;image/jpg;image/jpg;image/png;image/cgm;image/tiff;image/tiff;application/rtf;application/postscript;application/postscript;application/postscript;video/mpeg;video/mpeg;audio/mpeg;audio/x-pn-realaudio;application/islanddraw;text/plain;text/css;application/x-spsh;application/pdf;application/msword;audio/mpeg;video/mpeg;video/mpeglist;text/xml;text/xml;image/bmp;text/javascript;audio/x-pn-realaudio;audio/x-scpls;application/xfig;video/mpeg;video/mpeg;video/x-msvideo;video/x-msvideourl;application/vnd.ms-powerpoint;application/octet-stream;application/vnd.ms-excel;text/plain;audio/x-mpegurl;video/x-pn-realvideo;video/ogg;application/epub+xml;application/x-tar;application/x-tar+gzip;application/x-gzip;application/zip
+MIMETRAITE=embed_image;embed_image;embed_image;embed_image;unknown;unknown;unknown;unknown;unknown;unknown;unknown;redirector;redirector;redirector;unknown;unknown;unknown;unknown;unknown;unknown;unknown;redirector;redirector;unknown;unknown;unknown;unknown;unknown;redirector;unknown;unknown;redirector;redirector;redirector;unknown;unknown;unknown;unknown;unknown;unknown;redirector;unknown;unknown;unknown;unknown;unknown;unknown
+ENCODING_UTF8=DUTF8
+LC_CTYPE=DLCCTYPE
+LC_COLLATE=DLCCOLLATE
+TYPE_CONCEPT=verity
+
+[IMPORT]
+SCANFILE=BASES_DIR/DNOMBASE/scan
+OUT_BASE=INSTALL_DIR/log/out
+OUTXML_BASE=INSTALL_DIR/log/outxml
+TRACE_IMPORT=INSTALL_DIR/log/trace_import
+CATALOG=INSTALL_DIR/resources/catalog
+XMLDECL=INSTALL_DIR/resources/pubtext/xml.soc
+XBULKPREF=BASES_DIR/DNOMBASE/bulkfiles_xedix/temp-
+XCBULKPREF=BASES_DIR/DNOMBASE/bulkfiles_xedix/chtemp-
+XBULKLOCK=BASES_DIR/DNOMBASE/bulkfiles.lock
+XINDEXFREQ=0
+XINDEXMEM=500000000
+XINDEXBLOCK=1000000
+XINDEXPROF=8
+XINDEXORDRE=no
+XINDEXBLOCSPURGE=no
+XINDEXMOT3CLE=BASES_DIR/DNOMBASE/Clio/Listedocs/mot3cle
+XINDEXMOT3BLOC=1000
+XINDEXMAXMOTS=500
+DTDMOTSYSTEM=INSTALL_DIR/resources/DTD/mot.dcl
+DTDMOT2SYSTEM=INSTALL_DIR/resources/DTD/mot2.dcl
+DTDMOT3SYSTEM=INSTALL_DIR/resources/DTD/mot3.dcl
+DTDGMOTSYSTEM=INSTALL_DIR/resources/DTD/gmot.dcl
+DTDCHAMPSYSTEM=INSTALL_DIR/resources/DTD/champ.dcl
+DTDBALISESYSTEM=INSTALL_DIR/resources/DTD/balise.dcl
+DTDLISTEBALISESSYSTEM=INSTALL_DIR/resources/DTD/listebalises.dcl
+VARDATE=EMETDATE
+COMMITFREQ=1
+VALIDATEFREQ=1
+LOADIMAGES=yes
+IMPORTWWW=yes
+IMPORTCMDS=rempli_base;INSTALL_DIR/bin/rempli_base;absolu;-base;INSTALL_DIR/data;none;-novalid;-noimport;-remplace;-noremplace;-reindex;-allindex;-enracine;-debug;-debug2;-debug0;-nospirit;-spirit;-noverity;-verity;-noindex;-index;-xindexfreq 20;-xindexfreq 50;-xindexfreq 100;-xindexfreq 1000;-indexfreqspi 100;-encoding utf-8;-xcompacte 1000;-xml -catalog catalog.none;-catalog catalog|duntraite;FILTRE_DIR/bin/papier/duntraite;-cas;none;FILTRE_DATA;FILTRE_TEMP;-sgml;-import;-importr;-importref|img_mini;INSTALL_DIR/bin/img_mini;absolu;-base;INSTALL_DIR/data;none;-novalid;-novalid;-noimport;-remplace;-noremplace;-reindex;-allindex;-enracine;-debug;-debug2;-debug0;-nospirit;-spirit;-noverity;-verity;-noindex;-index;-xindexfreq 20;-xindexfreq 50;-xindexfreq 100;-xindexfreq 1000;-indexfreqspi 100;-encoding utf-8;-xcompacte 1000;-xml -catalog catalog.none;-catalog catalog|pdftotxt;INSTALL_DIR/bin/pdf_text_extract;absolu;-base;INSTALL_DIR/data;;none;-novalid;-noimport;-remplace;-noremplace;-reindex;-allindex;-enracine;-debug;-debug2;-debug0;-nospirit;-spirit;-noverity;-verity;-noindex;-index;-xindexfreq 20;-xindexfreq 50;-xindexfreq 100;-xindexfreq 1000;-indexfreqspi 100;-encoding utf-8;-xcompacte 1000;-xml -catalog catalog.none;-catalog catalog
+DIRSPOOL=INSTALL_DIR/spool
+DIRLOG=INSTALL_DIR/log
+ADMIN=DADMIN
+ZLIBBEST=1
+ZLIBCBEST=10
+ISSPOOL=no
+EXCLUMOTS=
+EXCLUBALS=
+BLOBMAX=10000000
+CHAMPS=
+NONODES=no
+
+[FILE]
+FILEHOME=BASES_DIR/DNOMBASE/File
+
+[CLIO]
+CLIOHOME=BASES_DIR/DNOMBASE/Clio
+CLIOSERVER=localhost
+CLIOERROR=INSTALL_DIR/log/error_clio-DNOMBASE
+CLIOATTR=NONE
+CLIOMESLEV=CLIO_WARNING_MESSAGES
+CLIONBCOLL=256
+CLIOMAXSTREAM=512
+CLIOMAXRSTREAM=128
+CLIOMAXWSTREAM=128
+CLIOMAXPRSTREAM=8
+CLIOTYPEINDEX=GME_TRIE_XDR
+CLIOGEOM=2;9;3;3;3
+CLIOMAXPROT=1048576
+CLIOMAXNULPROT=200
+CLIOLOCK=yes
+CLIOTYPEIO=GME_SYSIO
+CLIOBUFSIZE=-1
+CLIOMINXDRBUFSIZE=65536
+CLIODEFAUTBUFSIZE=1048576
+CLIODTIME=10
+CLIOIOMODE=CLIO_READ_WRITE
+CLIOCOMPACT=no
+
+[O2]
+SYSDIRO2=O2_DIR
+SYSNAMEO2=dnombase
+SVNAMEO2=O2_IP
+SWAPDIRO2=/tmp
+BASEO2=b_xml
+
+[SERVEUR]
+INITPWD=xedix#amodifier
+BASELOGO=INSTALL_DIR/resources/logo/dnombase.png
+BASENOM=dnombase
+MAXHIGH=1000
+MAX_DISP_DOCS=20
+CLIENTID=0
+DOCPAQUET=1000
+TIMEOUT=3600
+TIMEINUT=3600
+MULTISESSION=yes
+TESTRHOST=yes
+DTDUSERSYSTEM=INSTALL_DIR/resources/DTD/user.dcl
+DTDUSERGROUPSYSTEM=INSTALL_DIR/resources/DTD/usergroup.dcl
+DTDDOCGROUPSYSTEM=INSTALL_DIR/resources/DTD/docgroup.dcl
+ISFORK=yes
+MIMETEMPLATE=INSTALL_DIR/resources/mimetemplate
+META_ERRCLOSESS=yes
+METADIRECT=yes
+METADIRECTDESTS=
+METASERVEUR=
+METANUMCLONES=
+METADIRECTCLONES=
+METACLONES=
+TYPE_PAGE_IMAGE=frame
+IPXEDIX=XEDIX_IP
+NUMXEDIX=1
+REFDTD=PUBLIC "CEA/DIF//DTD Rapports tables anciennes 1.4//EN"
+OUTPUT_BALLISTE=docliste
+OUTPUT_BALLISTEETENDUE=doclisteetendue
+LEGENDE=LEGENDE/TITLE
+DESC=DESC
+EQUATION=EQUATION
+GRAPH=GRAPH
+MATH=MATH
+TBL=TBL
+STYLECLE=doc;panneau;liste
+STYLENOM=doc;panneau;liste
+STYLEMIME=text/css;text/css;text/css
+STYLESUF=css;css;css
+XMLSTYLECLE=xmldoc
+XMLSTYLENOM=xmldoc
+XMLSTYLEMIME=text/xsl
+XMLSTYLESUF=xsl
+DEFOUTPUT=
+DEFINVERSE=
+DIRIMG=DDIRIMG
+DIRXML=DDIRXML
+DIRCGI=DDIRCGI
+ACCUEIL=accueil_7.html#dircgi=DDIRCGI
+ENTREE=entree_7.html#dircgi=DDIRCGI
+IMGFOND=fond.jpg
+LOG_IMPORT_DATA=no
+
+[EXPORT]
+TRACE_EXTRACT=INSTALL_DIR/log/trace_extract
+TRACE_EXPORT=INSTALL_DIR/log/trace_export
+CLIENTSNB=1
+EXPORT_NEWLINE=yes
+
+[NPS]
+ISNPS=DISNPS
+BULKPREFNPS=BASES_DIR/DNOMBASE/bulkfiles_nps/bulkfile1-
+INDEXFREQNPS=1000
+
+[SPIRIT]
+ISSPIRIT=DISSPIRIT
+HOMESPIRIT=SPIRIT_DIR/serveur2000
+BASESPIRIT=BASES_DIR/DNOMBASE/spirit
+BULKPREFSPI=BASES_DIR/DNOMBASE/bulkfiles_spirit/bulkfile1-
+INDEXFREQSPI=1000
+IP_SPIRIT=SPIRIT_IP
+PORT_SPIRIT=SPIRIT_PORT
+USER_SPIRIT=spiadm
+PSWD_SPIRIT=spirit
+BASE_SPIRIT=dnombase
+INDICE_BASE_SPIRIT=0
+NB_BASES_SPIRIT=1
+NO_CHAMP_SPIRIT=2
+LISTEPOSSPI=no
+
+[VERITY]
+ISVERITY=DISVERITY
+VDKHOME=VERITY_DIR/common
+BULKPREF=BASES_DIR/DNOMBASE/bulkfiles_verity/bulkfile1-
+INDEXBLOC=10
+INDEXFREQ=1000
+SLEEPTIME=3
+COLLPATH=BASES_DIR/DNOMBASE/collection_verity
+STYLEREF=INSTALL_DIR/resources/DSTYLES
+APPNAME=CEA
+APPSIG=SBE7-43KB-633T-EH6D-3KC7
+LANGUAGE=french
+VDKDATE=MDY
+LISTEPOSVER=yes
+TOPICS=eddy;volcanisme;test;test_essai
+TOPICPATHS=INSTALL_DIR/resources/topics/topics2;INSTALL_DIR/resources/topics/topics;INSTALL_DIR/resources/topics/topics3;INSTALL_DIR/resources/topics/topics4
+
+[LANGUE]
+HTMLDOCTYPE=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+DOC_AFF_FORM1=<form method="post" action="[action]">[nbdocs][params][navigation][listedocs]</form>
+DOC_AFF_FORM2=<form method="post" action="[action]">[nbdocs][params][navigation][listedocs][navigation]</form>
+DOC_AFF_PARAM=<div class="paramdocs" align="center">S&eacute;lecteur&nbsp: <input type="text" size="80" name="elems" value="[telems]">\
+<hr width="25%">\
+Classe&nbsp;: <input type="text" size="10" name="classe" value="[tclasse]"><input type="hidden" name="high_ko" value="[high_ko]">, Ordre <select name="inverse"><option value="yes"[inverse0]>d&eacute;croissant</option><option value="no"[inverse1]>croisssant</option></select>, Format <select name="output"><option value="defaut"[out0]>auto</option><option value="xml"[out1]>XML</option></select>, Liste <select name="targetcoll"><option value="documents"[targetc0]>documents</option><option value="allimages"[targetc1]>images</option><option value="listepropre"[targetc2]>listepropre</option><option value="liste"[targetc3]>liste</option><option value="index"[targetc4]>index</option><option value="indexparse"[targetc5]>indexparse</option></select>, <input type="text" size="2" name="dispdocs" value="[dispdocs]"> par page<br>Pr&eacute;sentation <select name="display"><option value="simple">Simple</option><option value="avance"[display1]>Avanc&eacute;</option><option value="complet"[display2]>Complet</option></select>, Tableau <select name="tableau"><option value=""[tableau0]>non</option><option value="yes"[tableau1]>oui</option></select>, Aller &agrave;&nbsp;:&nbsp;<input type="text" size="15" name="beginid" value="[tfirstref]">, Filtre&nbsp;:&nbsp;<input type="text" size="15" name="filtreid" value="[filtreid]"><input type="submit" value="OK"><br></div>
+DOC_AFF=<div class="rech_docaff">Documents affich&eacute;s : <select name="dispnumber"><option value="20">20 par 20</option><option value="10"[selected10]>10 par 10</option><option value="5"[selected5]>5 par 5</option><option value="2"[selected2]>2 par 2</option><option value="1"[selected1]>1 par 1</option></select> ou <input type="text" size="2" name="dispdocs" value=""> documents par page<br></div>
+DOC_AFF_20=20 par 20
+DOC_AFF_10=10 par 10
+DOC_AFF_5=5 par 5
+DOC_AFF_2=2 par 2
+DOC_AFF_1=1 par 1
+DOC_AFF_PAGE=documents par page
+PRES_RES=<div class="rech_mode">Choisissez le niveau de pr&eacute;sentation des r&eacute;sultats : <select name="display"><option value="simple">Simple</option><option value="avance"[display1]>Avanc&eacute;</option><option value="complet"[display2]>Complet</option></select><br></div>
+PRES_RES_SIMPLE=Simple
+PRES_RES_AVANCE=Avanc&eacute;
+PRES_RES_COMPLET=Complet
+FORMAT_EXP=<div class="rech_output">Choisissez le format d'export des documents : <select name="output"><option value="defaut"[xml0]>auto</option><option value="xml"[xml1]>XML</option></select><br></div>
+FORMAT_EXP_AUTO=auto
+FORMAT_EXP_XML=XML
+DONNE_SELECTEUR=<div class="rech_selecteur">[titre]<input type="text" size="80" name="elems" value="[elems]"><br></div>
+RECH_SEL=Donnez un s&eacute;lecteur&nbsp;:&nbsp;
+RECH_FILTRE=<div class="rech_filtreid">Filtrez les identifiants : <input type="text" size="40" name="filtreid" value="[filtreid]"><br></div>
+RECH_CLASSE=<div class="rech_classe">Classe des documents : <input type="text" size="40" name="classe" value="[classe]"><br></div>
+RECH_COLL=<div class="rech_targetcoll">Choisissez le type de pr&eacute;sentation des r&eacute;sultats : <select name="targetcoll"><option value="documents"[selecteddocuments]>documents</option><option value="images"[selectedimages]>images</option><option value="phrase"[selectedphrase]>phrase</option><option value="liste"[selectedliste]>liste</option><option value="listepropre"[selectedlistepropre]>listepropre</option><option value="index"[selectedindex]>index</option><option value="indexparse"[selectedindexparse]>indexparse</option></select><br></div>
+RECH_COLL_DOCUMENTS=documents
+RECH_COLL_IMAGES=images
+RECH_COLL_PHRASE=phrase
+RECH_COLL_LISTE=liste
+RECH_COLL_LISTEPROPRE=listepropre
+RECH_COLL_INDEX=index
+RECH_COLL_INDEXPARSE=indexparse
+DOC_MAX=<div class="rech_maxdoc">Nombre maximum de documents retourn&eacute;s : <select name="realnbr"><option value="-1">Tous</option><option value="100"[selected100]>100</option><option value="50"[selected50]>50</option><option value="10"[selected10]>10</option></select><br></div>
+DOC_MAX_TOUS=Tous
+DOC_MAX_100=100
+DOC_MAX_50=50
+DOC_MAX_10=10
+ORDRE_LISTE=<div class="rech_liste">Ordre de la liste : <select name="inverse"><option value="no">croissant</option><option value="yes"[selectedyes]>d&eacute;croissant</option></select><br></div>
+ORDRE_LISTE_CRO=croissant
+ORDRE_LISTE_DEC=d&eacute;croissant
+LISTE_MOT=<div class="rech_listemots">Liste des mots dans la base : <select name="mots" onchange="xsel(document.forms[0],0,1,1,'[action]')"><option value="">non</option><option value="yes"[selectedyes]>oui</option></select><br></div>
+LISTE_MOT_NON=non
+LISTE_MOT_OUI=oui
+CONCAT_DEB=<div class="rech_concat"><input type="hidden" name="allrequest"><br><input type="checkbox" name="reuse" value="yes">Utiliser la <a href="javascript:derniere('Votre derniere requete n\'est pas encore definie','Votre derniere requete est');" onmouseover="window.status='Cliquez ici pour voir la derni&egrave;re requ&ecirc;te';return true;" title="Affiche la derni&egrave;re requ&ecirc;te">derni&egrave;re recherche</a>&nbsp;&nbsp;&nbsp;&nbsp;[mot_trouves]<br><br></div>
+CONCAT_MIL_STATUS=Cliquez ici pour voir la derni&egrave;re requ&ecirc;te
+CONCAT_MIL_TITLE=Affiche la derni&egrave;re requ&ecirc;te
+CONCAT_FIN=derni&egrave;re recherche
+RECH_EFFACER=<div class="rech_boutons"><input type="reset" value="Effacer" onclick="document.forms[0].request.value='';">
+RECH_DATE_EFFACER=<div class="rech_boutons"><input type="reset" value="Effacer" onclick="document.forms[0].day.value='';document.forms[0].month.value='';document.forms[0].year.value='';">
+RECH_RECHERCHER=Rechercher
+MOT_TROUVE=<span class="rech_motstrouves">Mise en relief des mots trouv&eacute;s&nbsp;:<input type="radio" name="high" value="no"[choix0]>&nbsp;Non&nbsp;<input type="radio" name="high" value="yes"[choix1]>&nbsp;Oui<br></span>
+MOT_TROUVE_NON=Non
+MOT_TROUVE_OUI=Oui
+SAISIE_REQUETE=<textarea name="request" rows="4" cols="80" wrap="virtual">[requete]</textarea><br>
+OP_DEF=<div class="rech_defoper">Op&eacute;rateur par d&eacute;faut : <select name="defoper"><option value="<[ordre]=1>">[ordre]=1</option><option value="<[proche]=1>"[selected[proche]=1]>[proche]=1</option><option value="<[ordre]/8>"[selected[ordre]/8]>[ordre]/8</option><option value="<[proche]/8>"[selected[proche]/8]>[proche]/8</option><option value="<[ordre]>"[selected[ordre]]>[ordre]</option><option value="<[proche]>"[selected[proche]]>[proche]</option><option value="<[et]>"[selected[et]]>[et]</option><option value="<[ou]>"[selected[ou]]>[ou]</option></select><br></div>
+OP_ORDRE=ORDRE
+OP_PROCHE=PROCHE
+OP_ET=ET
+OP_OU=OU
+OP_SAUF=SAUF
+OP_DANS=DANS
+OP_EXPR=EXPRESSION
+OP_CUMUL=CUMUL
+OP_CONTENU=CONTENU
+OP_QUAND=QUAND
+OP_AORDRE=ordre
+OP_APROCHE=proche
+OP_AET=et
+OP_AOU=ou
+OP_ASAUF=sauf
+OP_ADANS=dans
+OP_EXPREG=Expression r&eacute;guli&egrave;re
+OP_IMI=Entiers minimum
+OP_IMA=Entiers maximum
+OP_ILT=Entiers inf&eacute;rieurs
+OP_IGT=Entiers sup&eacute;rieurs
+OP_IEQ=Entiers &eacute;gaux
+OP_INE=Entiers diff&eacute;rents
+OP_ILE=Entiers inf&eacute;rieurs ou &eacute;gaux
+OP_IGE=Entiers sup&eacute;rieurs ou &eacute;gaux
+OP_FMI=R&eacute;els minimum
+OP_FMA=R&eacute;els maximum
+OP_FLT=R&eacute;els inf&eacute;rieurs
+OP_FGT=R&eacute;els sup&eacute;rieurs
+OP_FEQ=R&eacute;els &eacute;gaux
+OP_FNE=R&eacute;els diff&eacute;rents
+OP_FLE=R&eacute;els inf&eacute;rieurs ou &eacute;gaux
+OP_FGE=R&eacute;els sup&eacute;rieurs ou &eacute;gaux
+OP_SMI=Cha&icirc;nes minimum
+OP_SMA=Cha&icirc;nes maximum
+OP_SLT=Cha&icirc;nes inf&eacute;rieures
+OP_SGT=Cha&icirc;nes sup&eacute;rieures
+OP_SEQ=Cha&icirc;nes &eacute;gales
+OP_SNE=Cha&icirc;nes diff&eacute;rentes
+OP_SLE=Cha&icirc;nes inf&eacute;rieures ou &eacute;gales
+OP_SGE=Cha&icirc;nes sup&eacute;rieures ou &eacute;gales
+OP_DMI=Dates minimum
+OP_DMA=Dates maximum
+OP_DLT=Dates inf&eacute;rieures
+OP_DGT=Dates sup&eacute;rieures
+OP_DEQ=Dates &eacute;gales
+OP_DNE=Dates diff&eacute;rentes
+OP_DLE=Dates inf&eacute;rieures ou &eacute;gales
+OP_DGE=Dates sup&eacute;rieures ou &eacute;gales
+OP_ADD_VAL=Distances L1 sur vecteurs d'entiers|Distances L2 sur vecteurs d'entiers|Distances LP sur vecteurs d'entiers|Distances logarithmique sur vecteurs d'entiers|Distances L1 sur vecteurs d'entiers en base 64|Distances L2 sur vecteurs d'entiers en base 64|Distances LP sur vecteurs d'entiers en base 64|Distances logarithmique sur vecteurs d'entiers en base 64|Point dans polygone
+OP_ADD_OP=$l1sine(10000,1,1,1,1,1,1,1,1,1,1)|$l2sine(10000,1,1,1,1,1,1,1,1,1,1)|$lpsine(10000,3.,1,1,1,1,1,1,1,1,1,1)|$dlsine(10000,1,1,1,1,1,1,1,1,1,1)|$l1s64ine(10000,1,1,1,1,1,1,1,1,1,1)|$l2s64ine(10000,1,1,1,1,1,1,1,1,1,1)|$lps64ine(10000,3.,1,1,1,1,1,1,1,1,1,1)|$dls64ine(10000,1,1,1,1,1,1,1,1,1,1)|$pipeq(0.,0.)
+TRI_IFI=Premier entier
+TRI_FFI=Premier r&eacute;el
+TRI_SFI=Premi&egrave;re cha&icirc;ne
+TRI_DFIDMY=Premi&egrave;re date(dmy)
+TRI_DFIDYM=Premi&egrave;re date(dym)
+TRI_DFIYMD=Premi&egrave;re date(ymd)
+TRI_DFIYDM=Premi&egrave;re date(ydm)
+TRI_DFIMDY=Premi&egrave;re date(mdy)
+TRI_DFIMYD=Premi&egrave;re date(myd)
+TRI_IMA=Entier maximum
+TRI_FMA=R&eacute;el maximum
+TRI_SMA=Cha&icirc;ne maximum
+TRI_DMADMY=Date(dmy) maximum
+TRI_DMADYM=Date(dym) maximum
+TRI_DMAYMD=Date(ymd) maximum
+TRI_DMAYDM=Date(ydm) maximum
+TRI_DMAMDY=Date(mdy) maximum
+TRI_DMAMYD=Date(myd) maximum
+TRI_IMI=Entier minimum
+TRI_FMI=R&eacute;el minimum
+TRI_SMI=Cha&icirc;ne minimum
+TRI_DMIDMY=Date(dmy) minimum
+TRI_DMIDYM=Date(dym) minimum
+TRI_DMIYMD=Date(ymd) minimum
+TRI_DMIYDM=Date(ydm) minimum
+TRI_DMIMDY=Date(mdy) minimum
+TRI_DMIMYD=Date(myd) minimum
+TRI_ADD_VAL=Distances L1 sur vecteurs d'entiers|Distances L2 sur vecteurs d'entiers|Distances LP sur vecteurs d'entiers|Distances logarithmique sur vecteurs d'entiers|Distances L1 sur vecteurs d'entiers en base 64|Distances L2 sur vecteurs d'entiers en base 64|Distances LP sur vecteurs d'entiers en base 64|Distances logarithmique sur vecteurs d'entiers en base 64|Combinaison lin&eacute;aire
+TRI_ADD_OP=l1simi(1,1,1,1,1,1,1,1,1,1)|l2simi(1,1,1,1,1,1,1,1,1,1)|lpsimi(3.,1,1,1,1,1,1,1,1,1,1)|dlsimi(1,1,1,1,1,1,1,1,1,1)|l1s64imi(1,1,1,1,1,1,1,1,1,1)|l2s64imi(1,1,1,1,1,1,1,1,1,1)|lps64imi(3.,1,1,1,1,1,1,1,1,1,1)|dls64imi(1,1,1,1,1,1,1,1,1,1)|lcomi(l1simi/l1simi/l1sfmi/.33/.33/.33/1,1,1,1,1,1,1,1,1,1/1,1,1,1,1,1,1,1,1,1/1,1,1,1,1,1,1,1,1,1)
+MENU_CHAMPS=<select name="[name]" onchange="setarea(document.forms[0].request,document.forms[0].[name],'','');"><option value="">- [titre] -</option>[elems]</select>
+MENU_SELECTEUR=<div class="rech_menu_selecteur">[titre]<select name="elemprof" onchange="setarea(document.forms[0].elems,document.forms[0].elemprof,'','');"><option value="">- [prof] -</option>[elems]</select><select name="elemregle" onchange="setarea(document.forms[0].elems,document.forms[0].elemregle,'','');"><option value="">- [regle] -</option><option value="&lt;-1|0||&gt;;">[regle_aucune]</option><option value="&lt;-1|1||&gt;;">[regle_1]</option><option value="&lt;-1|2||&gt;;">[regle_2]</option><option value="&lt;-1|4||&gt;;">[regle_4]</option><option value="&lt;-1|8||&gt;;">[regle_8]</option><option value="&lt;-1|16||&gt;;">[regle_16]</option><option value="&lt;-1|32||&gt;;">[regle_32]</option><option value="&lt;-1|15||&gt;;">[regle_toutes]</option></select></div>
+AFF_TABLEAU=<div class="rech_tableau">Affichage en mode tableau : <select name="tableau"><option value="">non</option><option value="yes"[selectedyes]>oui</option></select><br></div>
+AFF_TABLEAU_NON=non
+AFF_TABLEAU_OUI=oui
+AFF_TABLEAU_TITRE=Titre
+AFF_TABLEAU_CLASSE=Classe
+AFF_TABLEAU_ID=ID
+AFF_TABLEAU_SCORE=Score
+CLASSE_SPIRIT=Classe
+ERREUR_FRAME=Erreur : votre browser ne g&egrave;re pas les frames
+PRES_TRI=<div class="rech_tri">Choisissez l'ordre de pr&eacute;sentation des r&eacute;sultats : <select name="tri"><option value="">[tri_score]</option><option value="[datec]"[selecteddatec]>[tri_datec]</option><option value="[dated]"[selecteddated]>[tri_dated]</option>[tri_otherd]<option value="[tri]"[selectedtri]>[tri]</option>[tri_otherf]</select><br></div>
+PRES_XTRI=<div class="rech_menutri">Choisissez l'ordre de pr&eacute;sentation des r&eacute;sultats : <select name="menutri" onchange="setarea(document.forms[0].tri,document.forms[0].menutri,'',' ');"><option value="">- [menu_champ_index] -</option>[tri_otherd]<option value="[tri]">[tri]</option>[tri_otherf]<option value="score@xedix">score@xedix</option>[champs]</select><select name="menutritype" onchange="setarea(document.forms[0].tri,document.forms[0].menutritype,'','');"><option value="">- [rex_op] -</option><option value="ifi">[tri_ifi]</option><option value="ffi">[tri_ffi]</option><option value="sfi">[tri_sfi]</option><option value="dfidmy">[tri_dfidmy]</option><option value="dfidym">[tri_dfidym]</option><option value="dfiymd">[tri_dfiymd]</option><option value="dfiydm">[tri_dfiydm]</option><option value="dfimdy">[tri_dfimdy]</option><option value="dfimyd">[tri_dfimyd]</option><option value="ima">[tri_ima]</option><option value="fma">[tri_fma]</option><option value="sma">[tri_sma]</option><option value="dmadmy">[tri_dmadmy]</option><option value="dmadym">[tri_dmadym]</option><option value="dmaymd">[tri_dmaymd]</option><option value="dmaydm">[tri_dmaydm]</option><option value="dmamdy">[tri_dmamdy]</option><option value="dmamyd">[tri_dmamyd]</option><option value="imi">[tri_imi]</option><option value="fmi">[tri_fmi]</option><option value="smi">[tri_smi]</option><option value="dmidmy">[tri_dmidmy]</option><option value="dmidym">[tri_dmidym]</option><option value="dmiymd">[tri_dmiymd]</option><option value="dmiydm">[tri_dmiydm]</option><option value="dmimdy">[tri_dmimdy]</option><option value="dmimyd">[tri_dmimyd]</option>[tri_add]</select><br></div><div class="rech_tri"><input type="text" size="80" name="tri" value="[tri]"><br></div>
+PRES_TRI_DEFAUT=d&eacute;faut
+PRES_TRI_SCORE=score
+PRES_TRI_DATEC=date croissante
+PRES_TRI_DATED=date d&eacute;croissante
+RECH_MOT_CLES=Recherche sur les mots cl&eacute;s
+RECH_MOT_CLESHEADER=DHEADER<h1 align="center"><i>Recherche sur les mots cl&eacute;s</i></h1>
+RECH_SAISIE=<b>Tapez votre requ&ecirc;te ci-dessous :</b>
+RECH_LEGENDES=Recherche sur les l&eacute;gendes d'images
+RECH_LEGENDESHEADER=DHEADER<h1 align="center"><i>Recherche sur les l&eacute;gendes d'images</i></h1>
+RECH_LEGENDES_TYPE=Type d'image : 
+RECH_LEGENDES_TOUS=Tous
+RECH_LEGENDES_EQUA=Equation
+RECH_LEGENDES_GRAPH=Graphique
+RECH_LEGENDES_MATH=Math&eacute;matiques
+RECH_LEGENDES_TAB=Tableau
+MENU_CHAMP=Champs
+MENU_CHAMP_PROF=Champs (profondeur)
+MENU_CHAMP_INDEX=Champs index&eacute;s
+MENU_REGLE=R&egrave;gles
+MENU_REGLE_AUCUNE=Aucune
+MENU_REGLE_1=Droit de traverser et contenu textuel de la balise
+MENU_REGLE_2=Droit de traverser et contenu textuel des descendants de la balise
+MENU_REGLE_4=Affichage du nom de la balise
+MENU_REGLE_8=Affichage du nom des descendants de la balise
+MENU_REGLE_16=Droit de traverser la balise
+MENU_REGLE_32=Droit de traverser des descendants de la balise
+MENU_REGLE_TOUTES=Toutes
+RECH_DERNIERE_SAISIR=Vous devez saisir une requete
+RECH_DERNIERE_NONDEF=Votre derniere requete n\'est pas encore definie
+RECH_DERNIERE_EST=Votre derniere requete est
+SESSION_INTER=<div class="erreur" align="center"><br><br><p align="center"><b>Session interrompue (temps d&eacute;pass&eacute; ou trop de sessions) : veuillez vous identifier &agrave; nouveau</b><br><br><a href="javascript:xentree('[dirxml]','[entree]','[accueil]');">[retour]</a></p></div>
+SESSION_INTER_XML=Session interrompue (temps d\E9pass\E9 ou trop de sessions), reconnectez-vous
+DOC_TITRE=Consultation des documents
+DOC_HEADER=DHEADER<h2 class="nbredocs" align="center">Consultation des documents</h2>
+DOC_PARAMDOCS=<input type="button" value="Options" onclick="options(document,'paramdocs');">&nbsp;
+DOC_NONDEF=<b>Fichier ou document non existant dans la base.</b>
+DOC_XNONDEF=Fichier ou document non existant dans la base.
+ERREUR_ACCES=<h1 align="center">Acc&egrave;s interdit</h1>
+ERREUR_XACCES=Acces interdit
+ERREUR_OP=<h2 align="center">Op&eacute;ration interdite.</h2>
+ERREUR_XOP=Operation interdite.
+DOC_AFF_ALLERA=Aller &agrave;
+DOC_AFF_FILTRE=Filtre
+DOC_AFF_OK=OK
+DOC_AFF_NBDOC=Nombre de documents dans la base
+DOC_AFFNBDOCSP=<div class="nbredocs" align="center">[nbdocp] : <b>[nbdocs]</b>, Documents : <b>[docdeb]-[docfin]</b></div>
+DOC_AFF_DOCS=Documents
+SESSION_PB=Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Probl&egrave;me sur la session</b>
+SESSION_PB_XML=Probleme avec votre session, reconnectez-vous
+DOC_AFF_NAVALL=<div class="paquets" align="center">[paramdocs][debut]&nbsp;[precedent]&nbsp;[suivant]&nbsp;[fin]<br></div>
+DOC_AFF_NAV_PREC_STATUS=Cliquez ici pour afficher les documents precedents
+DOC_AFF_NAV_PREC_TITLE=Affiche les documents pr&eacute;c&eacute;dents
+DOC_AFF_NAV_PREC=Pr&eacute;c&eacute;dents
+DOC_AFF_NAV_SUIV_STATUS=Cliquez ici pour afficher les documents suivants
+DOC_AFF_NAV_SUIV_TITLE=Affiche les documents suivants
+DOC_AFF_NAV_SUIV=Suivants
+DOC_AFF_NAV_FIN_STATUS=Cliquez ici pour afficher les derniers documents
+DOC_AFF_NAV_FIN_TITLE=Affiche les derniers documents
+DOC_AFF_NAV_FIN=Fin
+DOC_AFF_NAV_DEB_STATUS=Cliquez ici pour afficher les premiers documents
+DOC_AFF_NAV_DEB_TITLE=Affiche les premiers documents
+DOC_AFF_NAV_DEB=D&eacute;but
+DOC_AFF_NAV_CLASSES_STATUS=Cliquez ici pour afficher les classes de documents
+DOC_AFF_NAV_CLASSES_TITLE=Affiche les classes de documents (au sens de Spirit)
+DOC_AFF_NAV_CLASSES=Classes
+DOC_AFF_NAV_CLASSE_STATUS=Cliquez ici pour afficher cette classe de documents
+DOC_AFF_NAV_CLASSE_TITLE=Affiche cette classe de documents
+DOC_AFF_NAV_CLASSE=Classe
+DOC_AFF_SEL=S&eacute;lecteur
+DOC_AFF_CLASSE=Classe
+DOC_AFF_ORDRE=Ordre
+DOC_AFF_FORMAT=Format
+DOC_AFF_LISTE=Liste
+DOC_AFF_PARPAGE=par page
+DOC_AFF_PRES=Pr&eacute;sentation
+DOC_AFF_TABLEAU=Tableau
+RECH_REX=Recherche REX
+RECH_REXHEADER=DHEADER<h1 align="center" class="recherche"><i>Recherche REX</i></h1>
+RECH_REX_OPTIONS=<div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div>
+RECH_REX_REQ=<b>Tapez votre requ&ecirc;te ci-dessous</b><br>(plein texte ou champs, exemple: <code>mot</code>, <code>mot &lt;dans&gt; MTITRE</code>, <code>champs_indexe &lt;$oper()&gt;</code> - les espaces sont indispensables)&nbsp;:
+RECH_REX_PARENT=Parenth&eacute;sage
+RECH_REX_PARENT1=(
+RECH_REX_PARENT2=)
+RECH_REX_OP=Op&eacute;rateurs
+RECH_REX_PAQUETS=Paquets de mots
+RECH_REX_PAQUETS2=<p><b>Plages de mots&nbsp;:</b></p>
+RECH_REX_MOTS=Mots
+RECH_REX_MOTS2=<b>Mots :</b>
+RECH_REX_CHAMPS=<b>Champs :</b>
+RECH_REX_NOUVELLE=<div class="newrequest" align="center"><input type="hidden" name="allrequest">Nouvelle requ&ecirc;te&nbsp;:&nbsp;<input type="text" size="80" name="request" value="[request]"><input type="button" value="OK" onclick="test_form_new(document.forms[0],'Vous devez saisir une requete');"></div>
+RECH_REX_RES=R&eacute;sultat de la recherche
+RECH_REX_RESHEADER=DHEADER<h2 class="nbredocs" align="center">R&eacute;sultat de la recherche</h2><hr width="30%">
+RECH_REX_LISTEMOTS=Liste des mots de la base
+RECH_REX_LISTEMOTSHEADER=DHEADER<h1 align="center"><i>Liste des mots de la base</i></h1>
+RECH_REX_LISTECHAMPS=Liste des champs de la base
+RECH_REX_LISTECHAMPSHEADER=DHEADER<h1 align="center"><i>Liste des champs de la base</i></h1>
+RECH_REX_LISTEBALS=Liste des balises de la base
+RECH_REX_LISTEBALSHEADER=DHEADER<h1 align="center"><i>Liste des balises de la base</i></h1>
+RECH_REX_DOC_STATUS=Cliquez ici pour afficher les documents
+RECH_REX_DOC_TITLE=Affiche les documents
+RECH_REX_AFF_FORM1=[nbdocs]<form name="general" method="post" action="[action]" onsubmit="return build_request_new(this);">[recherche][params][navigation]<br>[listedocs]</form>
+RECH_REX_AFF_FORM2=[nbdocs]<form name="general" method="post" action="[action]" onsubmit="return build_request_new(this);">[recherche][params][navigation]<br><hr><br>[listedocs][navigation]<br><hr></form>
+RECH_REX_AFF_FORMMOTS=<select name="mot" onchange="xsel(document.forms[0],1,1,1,'[url0]')">\
+<option value="">- [rex_paquets] -</option>[paquets]</select>\
+<select name="sgmlmot" onchange="setarea(document.forms[0].request,document.forms[0].sgmlmot,'','');">\
+<option value="">- [rex_mots]</option>[mots]</select><br>
+RECH_REX_AFF_FORMGEN=<form name="general" method="post" action="[action]" onsubmit="return build_request(this,this.request.value,'( ',' ) <ET> ( ',' )');"><div align="center" class="recherche"><div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div><div class="rech_options">[presentation_resultats][format_export][menu_selecteur][donne_selecteur][donne_classe][donne_filtreid][presentation_resultat][maximum_document][documents_affiches][affichage_tableau][ordre_liste][xtri_form][operator_defaut][liste_mots]</div><div class="rech_requete"><br><b>Tapez votre requ&ecirc;te ci-dessous</b><br>(plein texte ou champs, exemple: <code>mot</code>, <code>mot &lt;dans&gt; MTITRE</code>, <code>champs_indexe &lt;$oper()&gt;</code> - les espaces sont indispensables)&nbsp;:<br><select name="parent" onchange="setarea(document.forms[0].request,document.forms[0].parent,'','');"><option value="">- Parenth&eacute;sage -</option><option value=" (">(</option><option value=" )">)</option></select><select name="kword" onchange="setarea(document.forms[0].request,document.forms[0].kword,' <','> ');"><option value="">- Op&eacute;rateurs -</option><option value="ET">ET</option><option value="OU">OU</option><option value="SAUF">SAUF</option><option value="DANS">DANS</option><option value="PROCHE/512">PROCHE</option><option value="ORDRE/512">ORDRE</option><option value="ORDRE/1">EXPRESSION</option><option value="$reg(.*)">[op_expreg]</option><option value="$imi()">[op_imi]</option><option value="$ima()">[op_ima]</option><option value="$ilt(1)">[op_ilt]</option><option value="$igt(1)">[op_igt]</option><option value="$ieq(1)">[op_ieq]</option><option value="$ine(1)">[op_ine]</option><option value="$ile(1)">[op_ile]</option><option value="$ige(1)">[op_ige]</option><option value="$fmi()">[op_fmi]</option><option value="$fma()">[op_fma]</option><option value="$flt(1.)">[op_flt]</option><option value="$fgt(1.)">[op_fgt]</option><option value="$feq(1.)">[op_feq]</option><option value="$fne(1.)">[op_fne]</option><option value="$fle(1.)">[op_fle]</option><option value="$fge(1.)">[op_fge]</option><option value="$smi()">[op_smi]</option><option value="$sma()">[op_sma]</option><option value="$slt(p)">[op_slt]</option><option value="$sgt(p)">[op_sgt]</option><option value="$seq(p)">[op_seq]</option><option value="$sne(p)">[op_sne]</option><option value="$sle(p)">[op_sle]</option><option value="$sge(p)">[op_sge]</option><option value="$dmi(dmy)">[op_dmi]</option><option value="$dma(dmy)">[op_dma]</option><option value="$dlt(d01m01y2000)">[op_dlt]</option><option value="$dgt(d01m01y2000)">[op_dgt]</option><option value="$deq(d01m01y2000)">[op_deq]</option><option value="$dne(d01m01y2000)">[op_dne]</option><option value="$dle(d01m01y2000)">[op_dle]</option><option value="$dge(d01m01y2000)">[op_dge]</option>[op_add]</select>[sgmlelem][sgmlindex]<br>[mots]<br><br>[saisie_requete]</div>[concatenation][effacer]<input type="button" value="[rech_rechercher]" onclick="test_form(document.forms[0],'[rech_derniere_saisir]',document.forms[0].request.value,'( ',' ) <ET> ( ',' )');"></div></form>
+RECH_REX_AFF_FORMLMOTS=<form name="listemots" method="post" action="[action]"><div align="center" class="recherche"><div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div><div class="rech_options">[presentation_resultats][format_export][menu_selecteur][donne_selecteur][donne_classe][donne_filtreid][presentation_resultat][maximum_document][documents_affiches][affichage_tableau][ordre_liste][xtri_form]</div><div class="rech_motstrouves">[mot_trouves]</div><div class="rech_boutons"><br><input type="submit" value="OK"></div></div><div class="rech_mots" align="center"><br><table><colgroup span="1"><tr><td valign="top" align="center"><p><b>Plages de mots&nbsp;:</b></p><select name="mot" onchange="xsel(document.forms[0],1,0,0,'[action2]')"><option value="">- Paquets de mots -</option>[html_paquets]</select></td></tr><tr><td><p align="center"><b>Mots :</b></p></td></tr><tr><td><p>[mots]</p></td></tr></table></div></form>
+RECH_REX_AFF_FORMLCHAMPS=<form name="listechamps" method="post" action="[action]"><div align="center" class="recherche"><div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div><div class="rech_options">[presentation_resultats][format_export][menu_selecteur][donne_selecteur][donne_classe][donne_filtreid][presentation_resultat][maximum_document][documents_affiches][affichage_tableau][ordre_liste][xtri_form]</div><div class="rech_champstrouves">[mot_trouves]</div><div class="rech_boutons"><br><input type="submit" value="OK"></div></div><div class="rech_champs" align="center"><br><table><colgroup span="1"><tr><td><p align="center"><b>Champs :</b></p></td></tr><tr><td><p>[champs]</p></td></tr></table></div></form>
+RECH_REX_AFF_FORMKEYWORD=<form name="keyword" method="post" action="[action]" onsubmit="return build_request(this,'(' + this.request.value + ' ) [oper] [desc]','( ',' ) <ET> ( ',' )');"><div align="center" class="recherche"><div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div><div class="rech_options">[presentation_resultats][format_export][menu_selecteur][donne_selecteur][donne_classe][donne_filtreid][presentation_resultat][maximum_document][documents_affiches][affichage_tableau][ordre_liste][xtri_form]</div><div class="rech_requete"><br><b>Tapez votre requ&ecirc;te ci-dessous :</b><br><br><input name="request" value="" size="80"></div>[concatenation][effacer]<input type="button" value="[rech_rechercher]" onclick="test_form(document.forms[0],'[rech_derniere_saisir]','(' + document.forms[0].request.value + ' ) [oper] [desc]','( ',' ) <ET> ( ',' )');"></div></div></form>
+RECH_REX_AFF_FORMCAPTION=<form name="caption" method="post" action="[action]" onsubmit="return build_request_img(this,'(' + document.forms[0].request.value + ' ) [oper] [legende]','(',' ) [oper] ','( ',' ) <ET> ( ',' )');"><div align="center" class="recherche"><div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div><div class="rech_options">[presentation_resultats][format_export][menu_selecteur][donne_selecteur][donne_classe][donne_filtreid][maximum_document][documents_affiches][ordre_liste][xtri_form]</div><div class="rech_requete"><br><input type="hidden" name="targetcoll" value="images"><b>Tapez votre requ&ecirc;te ci-dessous :</b><br><br>Type d'image : <select name="image"><option value="tous">Tous</option><option value="[equation]">Equation</option><option value="[graph]">Graphique</option><option value="[math]">Math&eacute;matiques</option><option value="[tbl]">Tableau</option></select><br><br><input name="request" value="" size="80"></div>[concatenation][effacer]<input type="button" value="[rech_rechercher]" onclick="test_form_img(document.forms[0],'[rech_derniere_saisir]','(' + document.forms[0].request.value + ' ) [oper] [legende]','(',' ) [oper] ','( ',' ) <ET> ( ',' )');"></div></form>
+RECH_REX_AFF_FORMDATE=<form name="date" method="post" action="[action]"><div align="center" class="recherche"><div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div><div class="rech_options">[presentation_resultats][format_export][menu_selecteur][donne_selecteur][donne_classe][donne_filtreid][presentation_resultat][maximum_document][documents_affiches][affichage_tableau][ordre_liste][xtri_form]</div><div class="rech_requete"><br><b>Saisissez votre date ci-dessous&nbsp;:</b><br><br><select name="operator"><option value="<">Avant</option><option value=">">Apr&egrave;s</option><option value="=">Le</option></select>Jour&nbsp;: <input name="day" value="" size="2"> Mois&nbsp;: <input name="month" value="" size="2"> Ann&eacute;e&nbsp;: <input name="year" value="" size="4"><input type="hidden" name="high" value="no"></div>[concatenation][effacer]<input type="button" value="[rech_rechercher]" onclick="test_form_date(document.forms[0],'[vardate]','[vdkdate]','[classe]','( ',' ) <ET> ( ',' )');"></div></div></form>
+RECH_REX_AFF_PARAM=<div class="paramdocs" align="center">S&eacute;lecteur&nbsp: <input type="text" size="80" name="elems" value="[telems]"><hr width="25%">Classe&nbsp;: <input type="text" size="10" name="classe" value="[tclasse]"><input type="hidden" name="high_ko" value="[high_ko]">, Ordre <select name="inverse"><option value="yes"[inverse0]>d&eacute;croissant</option><option value="no"[inverse1]>croisssant</option></select>, Format <select name="output"><option value="defaut"[out0]>auto</option><option value="xml"[out1]>XML</option></select>, Liste <select name="targetcoll"><option value="documents"[targetc0]>documents</option><option value="images"[targetc6]>images</option><option value="phrase"[targetc6]>phrase</option><option value="listepropre"[targetc2]>listepropre</option><option value="liste"[targetc3]>liste</option><option value="index"[targetc4]>index</option><option value="indexparse"[targetc5]>indexparse</option></select>, <input type="text" size="2" name="dispdocs" value="[dispdocs]"> par page<br>Pr&eacute;sentation <select name="display"><option value="simple">Simple</option><option value="avance"[display1]>Avanc&eacute;</option><option value="complet"[display2]>Complet</option></select>, Tableau <select name="tableau"><option value=""[tableau0]>non</option><option value="yes"[tableau1]>oui</option></select>, Aller &agrave;&nbsp;:&nbsp;<input type="text" size="15" name="beginid" value="[tfirstref]">, Filtre&nbsp;:&nbsp;<input type="text" size="15" name="filtreid" value="[filtreid]"><input type="button" value="OK" onclick="test_form_new(document.forms[0],'Vous devez saisir une requete');"><br></div>
+RECH_REX_AFFNBDOCS0=<div class="nbredocs" align="center">[nbdocp] "<b><font class="requete" color="blue">[hquery]</font></b>"</div>
+RECH_REX_AFFNBDOCS1=<div class="nbredocs" align="center">[nbdocp] "<b><font class="requete" color="blue">[hquery]</font></b>"</div>
+RECH_REX_AFFNBDOCSP=<div class="nbredocs" align="center"><b>[nbdocs]</b> [nbdocp] "<b><font class="requete" color="blue">[hquery]</font></b>"</div>
+RECH_REX_AFFNBDOCSI1=<div class="nbredocs" align="center">[nbdocp] "<b><font class="requete" color="blue">[hquery]</font></b>"</div><div class="nbredocs" align="center">Documents <b>[docdeb]-[docfin]</b></div>
+RECH_REX_AFFNBDOCSIP=<div class="nbredocs" align="center"><b>[nbdocs]</b> [nbdocp] "<b><font class="requete" color="blue">[hquery]</font></b>"</div><div class="nbredocs" align="center">Documents <b>[docdeb]-[docfin]</b></div>
+RECH_REX_AUCUN=Aucun document ne r&eacute;pond &agrave; la requ&ecirc;te
+RECH_REX_UN=<b>1</b> document r&eacute;pond &agrave; la requ&ecirc;te
+RECH_REX_PLUS=documents r&eacute;pondent &agrave; la requ&ecirc;te
+RECH_REX_REQ_ERR=<p align="center"><b>Erreur dans la requ&ecirc;te</b>.<br>Mauvaise requete</p>
+RECH_REX_REQ_XERR=Erreur dans la requete. Mauvaise requete
+RECH_VERITY=Recherche Verity
+RECH_VERITYHEADER=<h1 align="center"><i>Recherche Verity</i></h1>
+RECH_VERITY_COMPAR=Comparateurs
+RECH_VERITY_CONCEPT=Arborescence du concept
+RECH_VERITY_CONCEPTHEADER=<h2 align="center">Arborescence du concept</h2>
+RECH_VERITY_CONCEPT_ERR1=<h1 align="center">Probl&egrave;me de configuration du serveur</h1><hr><p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Variable TOPICS et TOPICPATHS non valides</b></p>
+RECH_VERITY_CONCEPT_PARAMS=Param&egrave;tres de recherche des concepts
+RECH_VERITY_CONCEPT_PARAMSHEADER=<h1 align="center"><i>Param&egrave;tres de recherche des concepts</i></h1>
+RECH_VERITY_CONCEPT_LISTE=Liste des concepts disponibles
+RECH_VERITY_CONCEPT_STATUS=Cliquez ici pour visualiser le contenu du concept
+RECH_VERITY_CONCEPT_TITLE=Affiche le contenu du concept
+RECH_VERITY_JOUR_ERR=Jour Incorrect
+RECH_VERITY_MOIS_ERR=Mois Incorrect
+RECH_VERITY_ANNEE_ERR=Annee Incorrect
+RECH_VERITY_DATE=Recherche sur la date du document
+RECH_VERITY_DATEHEADER=DHEADER<h1 align="center"><i>Recherche sur la date du document</i></h1>
+RECH_VERITY_DATE_SAISIE=<b>Saisissez votre date ci-dessous&nbsp;:</b>
+RECH_VERITY_DATE_AVANT=Avant
+RECH_VERITY_DATE_APRES=Apr&egrave;s
+RECH_VERITY_DATE_LE=Le
+RECH_VERITY_DATE_JOUR=Jour
+RECH_VERITY_DATE_MOIS=Mois
+RECH_VERITY_DATE_ANNEE=Ann&eacute;e
+RECH_VERITY_VDK_ERR1=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur d'ouverture de collection Topic</b></p>
+RECH_VERITY_VDK_ERR2=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur d'ouverture de la base de connaissance</b></p>
+RECH_VERITY_VDK_ERR3=<p align="center">Veuillez contacter l'administrateur en lui communiquant e message suivant : <br><br><b>Erreur sur VdkAssistExpand</b></p>
+RECH_VERITY_VDK_ERR4=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur d'ouverture de collection Topic</b></p>
+RECH_VERITY_VDK_ERR5=<p align="center"><b>Erreur de syntaxe dans la requ&ecirc;te</b>.<br>Recommencez ou consultez l'aide en ligne pour des exemples de requ&ecirc;tes valides.</p>
+RECH_VERITY_VDK_ERR6=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur de recherche Topic</b></p>
+RECH_VERITY_VDK_ERR7=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur d'analyse de r&eacute;sultats Topic</b></p>
+RECH_VERITY_VDK_ERR8=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur de lecture des r&eacute;sultats Topic</b></p>
+RECH_VERITY_VDK_ERR9=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur de transformation d'ID</b></p>
+RECH_VERITY_VDK_ERR10=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur de lecture des positions</b></p>
+RECH_VERITY_VDK_ERR11=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur d'ouverture de session Topic</b></p>
+RECH_VERITY_VDK_ERR12=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur de red&eacute;finition de la gateway Topic</b></p>
+RECH_VERITY_VDK_STATUS=Cliquez ici pour chercher les documents li&eacute;s &agrave; ce concept
+RECH_VERITY_VDK_TITLE=Affiche les documents li&eacute;s &agrave; ce concept
+RECH_SPIRIT=Recherche Spirit
+RECH_SPIRITHEADER=<h1 align="center"><i>Recherche Spirit</i></h1>
+RECH_SPIRIT_REQ=<b>Tapez votre requ&ecirc;te en langage naturel ci-dessous&nbsp;:</b>
+RECH_SPIRIT_CLASSES=<b><i>Classes de documents</i></b>
+RECH_SPIRIT_REFO=Reformulation
+RECH_SPIRIT_REFO_Q1=Question en fran&ccedil;ais
+RECH_SPIRIT_REFO_Q2=Question en anglais
+RECH_SPIRIT_REFO_Q3=Question en fran&ccedil;ais, reformul&eacute; en fran&ccedil;ais
+RECH_SPIRIT_REFO_Q4=Question en fran&ccedil;ais, reformul&eacute; en anglais
+RECH_SPIRIT_REFO_Q5=Question en anglais, reformul&eacute; en fran&ccedil;ais
+RECH_SPIRIT_REFO_Q6=Question en anglais, reformul&eacute; en anglais
+RECH_SPIRIT_ANA=<p align="center"><b><i>Analyse linguistique</b></i></p>
+RECH_SPIRIT_ANA_MCLES=<b>Mots cl&eacute;s</b>
+RECH_SPIRIT_ANA_PREMIERS=premiers
+RECH_SPIRIT_ANA_MERRONES=<b>Mots erron&eacute;s</b>
+RECH_SPIRIT_ANA_MVIDES=<b>Mots vides</b>
+RECH_SPIRIT_ANA_MERRONESN=<b>Mots erron&eacute;s normalis&eacute;s</b>
+RECH_SPIRIT_API_ERR1=<p align="center"><b>Erreur connexion au serveur Spirit</b>.</p>
+RECH_SPIRIT_API_ERR2=<p align="center"><b>Erreur login Spirit</b>.</p>
+RECH_SPIRIT_API_ERR3=<p align="center"><b>Erreur 1 sur la liste des bases Spirit</b>.</p>
+RECH_SPIRIT_API_ERR4=<p align="center"><b>Erreur 2 sur la liste des bases Spirit</b>.</p>
+RECH_SPIRIT_API_ERR5=<p align="center"><b>Erreur d'analyse linguistique Spirit</b>.</p>
+RECH_SPIRIT_API_ERR6=<p align="center"><b>Erreur de comparateur Spirit</b>.</p>
+RECH_SPIRIT_API_ERR7=<p align="center"><b>Erreur d'acc&egrave;s aux localisations</b>.</p>
+RECH_SPIRIT_API_ERR8=Erreur d'acces aux localisations
+RECH_SPIRIT_API_ERR9=Erreur de connection au serveur Spirit.
+RECH_SPIRIT_API_ERR10=Erreur d'analyse Spirit.
+RECH_SPIRIT_API_ERR11=Erreur de calcul des classes Spirit.
+IMG_PAGE_SUIV_STATUS=Page suivante
+IMG_PAGE_SUIV_TITLE=Page suivante
+IMG_PAGE_SUIV_ERR1=Impossible de g&eacute;n&eacute;rer le fichier
+IMG_PAGE_SUIV_ERR2=<b>Ce num&eacute;ro de page n'existe pas.</b>
+IMG_PAGE_PREM_STATUS=Premi&egrave;re page
+IMG_PAGE_PREM_TITLE=Premi&egrave;re page
+IMG_PAGE_PREC_STATUS=Page pr&eacute;c&eacute;dente
+IMG_PAGE_PREC_TITLE=Page pr&eacute;c&eacute;dente
+IMG_PAGE_DERN_STATUS=Derni&egrave;re page
+IMG_PAGE_DERN_TITLE=Derni&egrave;re page
+IMG_PAGE_ERR=<b>Le corps num&eacute;rique n'existe pas pour ce document.</b>
+IMG_PAGE_RET_STATUS=Retour page courante
+IMG_PAGE_RET_TITLE=Retour vers la page courante
+IMG_PAGE_PANNEAU_PAR=Param&egrave;tres pour g&eacute;n&eacute;ration d'un fichier PDF ou Postscript imprimable
+IMG_PAGE_PANNEAU_LISTE=<b>Entrez une liste de pages&nbsp;:</b>
+IMG_PAGE_PANNEAU_FORMAT=(format : toutes ou par exemple : 1,2-3,...)
+IMG_PAGE_PANNEAU_FICHIER=<b>Puis entrez le format du fichier&nbsp;:</b>
+IMG_PAGE_PANNEAU_MENU_PDF=PDF
+IMG_PAGE_PANNEAU_MENU_PS=Postscript
+IMG_PAGE_PANNEAU_APPUYEZ=<b>Puis appuyez sur le bouton Cr&eacute;ation&nbsp;:</b>
+IMG_PAGE_PANNEAU_ATTENDEZ=Attendez ensuite le lancement de l'application traitant le fichier au format demand&eacute; qui va &ecirc;tre envoy&eacute;.
+IMG_PAGE_PANNEAU_CREATION=Cr&eacute;ation
+IMG_PAGE_PANNEAU_TOUTES=toutes
+IMG_PAGE_PANNEAU_ERR=<b>Pas de pages valides a traiter.</b>
+IMG_PAGE_CLONE_STATUS=Clone dans nouvelle fen&ecirc;tre du navigateur
+IMG_PAGE_CLONE_TITLE=Clone dans nouvelle fen&ecirc;tre du navigateur
+IMG_PAGE_CLONE=Clone
+IMG_PAGE_ALLERA=Aller &agrave;
+IMG_PAGE_IMPRESSION=Impression
+IMG_PAGE_IMPRESSION_STATUS=Param&egrave;tres pour impression PS ou PDF
+IMG_PAGE_IMPRESSION_TITLE=Param&egrave;tres pour impression PS ou PDF
+IMG_PATRON_ERR1=<p>Erreur de lecture du patron associ&eacute; au type mime demand&eacute; pour le fichier (
+IMG_PATRON_ERR2=) ; consultez l'administrateur de la base</p>
+IMG_PATRON_ERR3=<p>Erreur : pas de patron associ&eacute; au type mime demand&eacute; pour le fichier : 
+IMG_PATRON_ERR4= ; consultez l'administrateur de la base</p>
+IMG_PATRON_ERR5=<p>Erreur dans config.ini : le type du patron n'est pas d&eacute;fini ; consultez l'administrateur de la base</p>
+IMG_ZOOM=Zoom sur Image
+IMG_ZOOM_STATUS=Cliquez ici pour faire un zoom
+IMG_ZOOM_TITLE=Cliquez ici pour faire un zoom
+IMG_ZOOM_QUOTE=<blockquote><hr><em>Votre browser ne supporte pas le tag HTML &lt;APPLET&gt;.</em><br><hr></blockquote>
+IMG_IMGNUM_ROTATION=Rotation
+IMG_IMGNUM_AGRAND=Agrandissement
+IMG_IMGNUM_FRAMES=Erreur : votre browser ne g&egrave;re pas les frames
+IMG_FICHIER_ERR=<b>Impossible de g&eacute;n&eacute;r&eacute; le fichier image.</b>
+IMG_URL_ERR=Votre navigateur ne supporte pas la balise &lt;object&gt;
+IMG_URL_STATUS=Acc&egrave;s &agrave; la ressource
+IMG_URL_TITLE=Acc&egrave;s &agrave; la ressource
+DOC_URL1_STATUS=Cliquez sur l\'icone correspondant &agrave; la partie du document &agrave; visualiser
+DOC_URL1_TITLE=Cliquez sur l'icone correspondant &agrave; la partie du document &agrave; visualiser
+DOC_URL2_STATUS=Cliquez ici pour acc&eacute;der au document
+DOC_URL2_TITLE=Cliquez ici pour acc&eacute;der au document
+DOC_URL3_STATUS=Cliquez ici pour acc&eacute;der au document avec les highlights
+DOC_URL3_TITLE=Cliquez ici pour acc&eacute;der au document avec les highlights
+DOC_URL4_STATUS=Cliquez ici pour acc&eacute;der aux portions identifi&eacute;es du document
+DOC_URL5_STATUS=Cliquez ici pour acc&eacute;der au document complet
+DOC_URL6_STATUS=Cliquez ici pour acc&eacute;der &agrave; la page de garde du document
+DOC_URL7_STATUS=Cliquez ici pour acc&eacute;der &agrave; l\'image
+DOC_URL7_TITLE=Cliquez ici pour acc&eacute;der &agrave; l'image
+DOC_URL8_STATUS=Acc&egrave;s &agrave; la page num&eacute;rique
+DOC_URL8_TITLE=Acc&egrave;s &agrave; la page num&eacute;rique
+DOC_URL9_STATUS=Cliquez sur le titre correspondant &agrave; la partie du document &agrave; visualiser
+DOC_URL9_TITLE=Cliquez sur le titre correspondant &agrave; la partie du document &agrave; visualiser
+DOC_ERR1=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>type_list
+DOC_ERR2=incorrect</b></p>
+DOC_URL10_STATUS=Cliquez ici pour acc&eacute;der au mot trouv&eacute; suivant
+DOC_URL10_TITLE=Cliquez ici pour acc&eacute;der au mot trouv&eacute; suivant
+DOC_INDEX=Index
+DOC_PAGE_IMAGE=Voir page image
+DOC_EXTRAIT=Extrait du document
+DOC_META=M&eacute;ta
+DOC_META2=<b><i>META</i></b>
+DOC_META3=<h1 class="meta" align="center">Cette section ne contient pas de m&eacute;ta donn&eacute;es</h1>
+DOC_URL11_STATUS=Acc&egrave;s aux m&eacute;ta-donn&eacute;es du document
+DOC_URL11_TITLE=Acc&egrave;s aux m&eacute;ta-donn&eacute;es du document
+DOC_RESUME=R&eacute;sum&eacute;
+DOC_RESUME2=<b>RESUME</b>
+DOC_URL12_STATUS=Acc&egrave;s au r&ecaute;sum&eacute; du document
+DOC_URL12_TITLE=Acc&egrave;s au r&ecaute;sum&eacute du document
+DOC_TDM=Table des mati&egrave;res
+DOC_TDM2=<b>TABLE DES MATIERES</b>
+DOC_URL13_STATUS=Acc&egrave;s &agrave; la table des mati&egrave;re du document
+DOC_URL13_TITLE=Acc&egrave;s &agrave; la table des mati&egrave;re du document
+DOC_DOC=Document
+DOC_ANNEXE=Annexes
+DOC_ANNEXE2=<b><i>ANNEXES</i></b>
+DOC_ANNEXE3=<h1 class="complem" align="center">Cette section ne contient pas d'annexe</h1>
+DOC_URL14_STATUS=Acc&egrave;s aux annexes du document
+DOC_URL14_TITLE=Acc&egrave;s aux annexes du document
+DOC_DIFFUSION=Liste de diffusion
+DOC_DIFFUSION2=<b>DIFFUSION</b>
+DOC_DIFFUSION3=<p><i>Ce document ne contient pas de liste de diffusion</i></p>
+DOC_URL15_STATUS=Acc&egrave;s &agrave la liste de diffusion du document
+DOC_URL15_TITLE=Acc&egrave;s &agrave la liste de diffusion du document
+DOC_NOTDM=Ce document n'a pas de table des mati&egrave;res
+DOC_URL2=Acc&egrave;s au document.
+DOC_REFERENCE=R&eacute;f&eacute;rence
+DOC_CORPSNUM=Corps num&eacute;ris&eacute;
+DOC_DATE_EMISSION=Date d'&eacute;mission
+DOC_DATE_DIFFUSION=Date de diffusion
+DOC_NBPAGES=Nombre de pages
+DOC_MOTCLES=Mots cl&eacute;s
+DOC_MOT_TROUVE=Acc&egrave;s direct aux occurrences des mots trouv&eacute;s
+DOC_MOT_TROUVE1_STATUS=acc&egrave;s au
+DOC_MOT_TROUVE2_STATUS=i&egrave;me mot trouv&eacute;
+DOC_CORPS=<b><i>CORPS DU DOCUMENT</i></b>
+DOC_ONLOAD1= onload="javascript:xdoc('[url]');">
+DOC_ONLOAD2=><br><br><br><br><br><br>[doc_nondef]
+DOC_REF_ONLOAD= onload="javascript:xdoc('[url]');">
+ADMIN_IDENT=Identification
+ADMIN_IDENT_ONLOAD= onload="javascript:session_location('[login]','[alea]','[dirimg]','[dirxml]','[dircgi]','[isverity]','[isspirit]','[basenom]','[type_concept]','[direct]',[type]);">
+ADMIN_IDENT_ERRCONNECT=<br><br>[err2]<br><p align="center"><a href="/[dirxml]/html/[entree]">[entree_retour]</a></p>
+ADMIN_ACCUEIL_ONLOAD= onload="javascript:location_accueil('[param]','[dirxml]','[dircgi]','[accueil]');">
+ADMIN_ENTREE_ONLOAD= onload="javascript:set_param('[param]','[dirxml]','[dircgi]','[entree]');">
+ADMIN_RESET_ONLOAD= onload="javascript:reset_session();"><br><br>[err1]<br><br><p align="center"><a href="/[dirxml]/html/[entree]">[entree_retour]</a></p>
+ADMIN_PACCUEIL_ONLOAD=<base href="[absuri][dirxml]/html/[accueil]">[head_body] onload="javascript:set_param_accueil('[param]','[dirxml]','[dircgi]');"[body]
+ADMIN_ERR1=<p align="center"><b>Probl&egrave;me de configuration du serveur</b><br><br>Veuillez contacter l'administrateur de votre base XEDIX en lui communiquant le message suivant : <br><br><b>Variable TIMEOUT ou TIMEINUT non d&eacute;finie</b></p>
+ADMIN_RETOUR=<div align="center"><a href="[radmin]">Retour au panneau de gestion des droits et documents</a></div>
+ENTREE_RETOUR=Retour &agrave; l'accueil
+ADMIN_PATIENTEZ=<p>Veuillez patienter un instant...</p>
+ADMIN_ERR2=<p align="center"><b>Votre identifiant ou votre mot de passe est invalide</b><br><br>Veuillez essayer de nouveau ou contacter votre administrateur pour obtenir un identifiant.</p>
+ADMIN_GESTION_FRAMESET=<frameset rows="40,*"><frame src="[frame1]" NAME="DOCUMENT1" marginheight="0" marginwidth="0" frameborder="0" noresize><frame src="[frame2]&noheader=yes" NAME="DOCUMENT2" marginheight="0" marginwidth="0" frameborder="0" noresize></frameset><noframes>Erreur : votre browser ne g&egrave;re pas les frames</noframes>
+LISTEXML_FRAMESET=<frameset rows="30%,70%"><frame src="[frame1]" NAME="CONTROLE" marginwidth="1" marginheight="3"><frame src="[frame2]" NAME="LISTE" marginwidth="1" marginheight="3"></frameset><noframes>Erreur : votre browser ne g&egrave;re pas les frames</noframes>
+ADMIN_GESTION_PANNEAU=Gestion de la base
+ADMIN_GESTION_PANNEAUHEADER=DHEADER
+ADMIN_GESTION_ACCES=<form action=""><h2 align="center" class="gestacces">[basenom]&nbsp;:&nbsp;Gestion des droits d'acc&egrave;s</h2><hr width="30%" class="gestacces"><br><div align="center" class="gestacces">[meta][header_hidden]</div><br><table WIDTH="100%"><colgroup span="1"><tr><th align="center">[gestion_util]</th></tr><tr><td align="center"><select name="users" size="10" multiple>[listusers]</select></td></tr><tr><td align="center"></td></tr><tr><td align="center"><input type="button" value=" [gestion_modifier] " name="modifuser" onclick="modif(document.forms[0],1,'[err5]','[err9]','[url3]');"></td></tr></table>[gestion_documents]</form>
+ADMIN_GESTION_ACCES2=<form action=""><h2 align="center" class="gestacces">[basenom]&nbsp;:&nbsp;Gestion des droits d'acc&egrave;s</h2><hr width="30%" class="gestacces"><br><div align="center" class="gestacces">[meta][header_hidden]</div><br><table WIDTH="100%"><colgroup span="3"><tr><th align="center">[gestion_util]</th><th align="center">[gestion_gutil]</th><th align="center">[gestion_gdocs]</th></tr><tr><td align="center"><select name="users" size="10" multiple>[listusers]</select></td><td align="center"><select name="usergroups" size="10" multiple>[listusergroups]</select></td><td align="center"><select name="docgroups" size="10" multiple>[listdocgroups]</select></td></tr><tr><td align="center"><input type="button" value=" [gestion_ajouter] " name="ajoutuser" onclick="ajout(document.forms[0],1,'[url3]');">&nbsp;<input type="button" value=" [gestion_supprimer] " name="suppuser" onclick="suppr(document.forms[0],1,'[err5]','[confirm1]','[url6]');"></td><td align="center"><input type="button" value=" [gestion_ajouter] " name="ajoutusergroup" onclick="ajout(document.forms[0],2,'[url4]');">&nbsp;<input type="button" value=" [gestion_supprimer] " name="suppusergroup" onclick="suppr(document.forms[0],2,'[err6]','[confirm2]','[url7]');"></td><td align="center"><input type="button" value=" [gestion_ajouter] " name="ajoutdocgroup" onclick="ajout(document.forms[0],3,'[url5]');">&nbsp;<input type="button" value=" [gestion_supprimer] " name="suppdocgroup" onclick="suppr(document.forms[0],3,'[err7]','[confirm3]','[url8]');"></td></tr><tr><td align="center"><input type="button" value=" [gestion_copier] " name="copieuser" onclick="copie(document.forms[0],1,'[err5]','[err9]','[url3]');">&nbsp;<input type="button" value=" [gestion_modifier] " name="modifuser" onclick="modif(document.forms[0],1,'[err5]','[err9]','[url3]');"></td><td align="center"><input type="button" value=" [gestion_copier] " name="copieusergroup" onclick="copie(document.forms[0],2,'[err6]','[err10]','[url4]');">&nbsp;<input type="button" value=" [gestion_modifier] " name="modifusergroup" onclick="modif(document.forms[0],2,'[err6]','[err10]','[url4]');"></td><td align="center"><input type="button" value=" [gestion_copier] " name="copiedocgroup" onclick="copie(document.forms[0],3,'[err7]','[err11]','[url5]');">&nbsp;<input type="button" value=" [gestion_modifier] " name="modifdocgroup" onclick="modif(document.forms[0],3,'[err7]','[err11]','[url5]');"></td></tr></table>[gestion_documents]</form>
+ADMIN_GESTION_UTIL=Utilisateurs
+ADMIN_GESTION_GUTIL=Groupes d'utilisateurs
+ADMIN_GESTION_GDOCS=Groupes de documents
+ADMIN_GESTION_SPOOL=Importer
+ADMIN_GESTION_ADMIN=Administration
+ADMIN_GESTION_AJOUTER=Ajouter
+ADMIN_GESTION_SUPPRIMER=Supprimer
+ADMIN_GESTION_COPIER=Copier
+ADMIN_GESTION_MODIFIER=Modifier
+ADMIN_GESTION_DOCS=<table WIDTH="100%" class="gestdocs"><colgroup span="1"><tr><th align="center">[gestion_travaux]</th></tr><tr><td align="center"><select name="webserveurs" size="10" multiple>[listserveurs]</select></td></tr><tr><td align="center"><input type="button" value=" [gestion_admin] " name="admindoc" onclick="xbasepanel(document.forms[0],'[url19]','X2Admin',1,'[err39]');"></td></tr><tr><td align="center"></td></tr></table>
+ADMIN_GESTION_DOCS2=<h2 align="center" class="gestdocs">[basenom]&nbsp;:&nbsp;Gestion des documents</h2><hr width="30%" class="gestdocs"><br><table WIDTH="100%" class="gestdocs"><colgroup span="3"><tr><th align="center">[gestion_travaux]</th><th align="center">[gestion_paquets]</th><th align="center">[aff_docs]</th></tr><tr><td align="center">[listserveurs]</td><td align="center"><select name="docpaquets" size="10" multiple>[listdocpaquets]</select></td><td align="center"><select name="docs" size="10" multiple>[listdocs]</select></td></tr><tr><td align="center"><input type="button" value=" [gestion_spool] " name="spooldoc" onclick="xbasepanel(document.forms[0],'[url19]','X2Import',3,'[err39]');">&nbsp;<input type="button" value=" [gestion_admin] " name="admindoc" onclick="xbasepanel(document.forms[0],'[url19]','X2Admin',1,'[err39]');"></td><td align="center"><input type="button" value=" [gestion_ok] " name="selectdocpaquet" onclick="xsel(document.forms[0],1,'[err3]','[err4]','[url1]');"></td><td align="center"><input type="button" value=" [gestion_ajouter] " name="ajoutdoc" onclick="ajout(document.forms[0],4,'[url13]');">&nbsp;<input type="button" value=" [gestion_supprimer] " name="suppdoc" onclick="suppr(document.forms[0],4,'[err8]','[confirm4]','[url0]');"></td></tr><tr><td align="center"><input type="button" value=" [gestion_logs] " name="gestionlogs" onclick="xbasepanel(document.forms[0],'[url19]','X2Import',7,'[err39]');">&nbsp;</td><td align="center"></td><td align="center"><input type="button" value=" [gestion_modifier] " name="modifdoc" onclick="modif(document.forms[0],4,'[err8]','[err40]','[url15]');"></td></tr></table>
+ADMIN_GESTION_LISTSERVEURS=<select name="webserveurs" size="10" multiple>[listserveurs]</select>
+ADMIN_GESTION_PAQUETS=Paquets de documents
+ADMIN_GESTION_TRAVAUX=Noms de base
+ADMIN_GESTION_OK=OK
+ADMIN_GESTION_LOGS=Gestion des Logs
+ADMIN_GESTION_SERVEUR=Gestion du serveur
+ADMIN_GESTION_SYNC1=<p align="center">Mise &agrave; jour de la liste des documents sur les serveurs
+ADMIN_GESTION_SYNC2=Synchronisation
+ADMIN_GESTION_SYNC3=(long sur grosses bases)</p>
+ADMIN_ERR3=Vous devez choisir un paquet\navant cette operation.
+ADMIN_ERR4=Un seul paquet doit etre\nchoisi pour cette operation.
+ADMIN_ERR5=Vous devez choisir un utilisateur\navant cette operation.
+ADMIN_CONFIRM1=Confirmation de la suppression\ndes utilisateurs ?
+ADMIN_ERR6=Vous devez choisir un groupe d\'utilisateurs\navant cette operation.
+ADMIN_CONFIRM2=Confirmation de la suppression\ndes groupes d\'utilisateurs ?
+ADMIN_ERR7=Vous devez choisir un groupe\navant cette operation.
+ADMIN_CONFIRM3=Confirmation de la suppression\ndes groupes de documents ?
+ADMIN_ERR8=Vous devez choisir au moins un document\navant cette operation.
+ADMIN_CONFIRM4=Confirmation de la suppression\ndes documents ?
+ADMIN_ERR9=Un seul utilisateur doit etre\nchoisi pour cette operation.
+ADMIN_ERR10=Un seul groupe d\'utilisateurs doit etre\nchoisi pour cette operation.
+ADMIN_ERR11=Un seul groupe doit etre\nchoisi pour cette operation.
+ADMIN_ERR12=Vous devez saisir un login et un mot de passe
+ADMIN_ERR13=Vous devez saisir un nom de groupe
+ADMIN_ERR14=Vous devez saisir le nom de groupe
+ADMIN_META_HIDDEN=<input type="hidden" name="[name]" value="[value]">
+ADMIN_HEADER_HIDDEN=<input type="hidden" name="[name]" value="[value]">
+ADMIN_ADD_PROPAGE=<b>Propagation aux serveurs fils&nbsp;:</b><br><input type="radio" name="nometa" value="no"[choix0]> Oui&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="nometa" value="yes"[choix1]> Non
+ADMIN_ADDUSER=Add USER form
+ADMIN_ADDUSER_AJOUT=Ajout d'un utilisateur
+ADMIN_ADDUSER_COPIE=Copie d'un utilisateur
+ADMIN_ADDUSER_MODIF=Modification d'un utilisateur
+ADMIN_ADDUSER_MODIFUSER=<input type="radio" name="level" value="user"[checkeduser]> [adduser_user]&nbsp;&nbsp;&nbsp;<input type="radio" name="level" value="contrib" [checkedcontrib]> [adduser_contrib]&nbsp;&nbsp;&nbsp;<input type="radio" name="level" value="admin" [checkedadmin]> [adduser_admin]<br>[adduser_motdepasse]<br><input type="radio" name="chpwd" value="no"[checkedchnon]> [adduser_non]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="chpwd" value="yes"[checkedchoui]> [adduser_oui]<br><b>min</b><input type="text" size="10" name="minday" value="[minday]"><b>max</b><input type="text" size="10" name="maxday" value="[maxday]"><b>last</b><input type="text" size="10" name="lastday" value="[lastday]"><br>[meta]<br><br><hr width="15%">[adduser_classes]<br><br><input type="text" size="80" name="autdocclasses" value="[classes]"><br><hr width="10%">[adduser_docs]<br><br><input type="text" size="80" name="autdocs" value="[docs]"><br><hr width="10%">[adduser_gdocs]<br><br><input type="text" size="80" name="autdocgroups" value="[gdocs]"><br><hr width="10%"><br>
+ADMIN_ADDUSER_PANNEAU=<h2 align="center" class="adduser">[basenom]&nbsp;:&nbsp;[adduser_mode]</h2><hr width="30%" class="adduser"><br><div align="center" class="adduser"><form method="post" action="[url9]$0">[header_hidden][adduser_createur]<b>[creator]</b><br>[adduser_ident]<input type="text" size="20" name="userid" value="[name]">[password_user]<br><br>[modif_user]<input type="hidden" name="mode" value="add_copie"><input type="button" value=" [adduser_ajouter] " onclick="test_form1(document.forms[0],'[err12]');"></form></div>
+ADMIN_ADDUSER_MODIFPANNEAU=<h2 align="center" class="adduser">[basenom]&nbsp;:&nbsp;[adduser_mode]</h2><hr width="30%" class="adduser"><br><div align="center" class="adduser"><form method="post" action="[url9]$0">[header_hidden][adduser_createur]<b>[creator]</b><br>[adduser_ident]<input type="text" size="20" name="userid" value="[userid]" readonly>[password_user]<br><br>[modif_user]<input type="hidden" name="mode" value="modif"><input type="button" value=" [adduser_modifier] " onclick="test_form1(document.forms[0],'[err12]');"></form></div>
+ADMIN_ADDUSER_IDENT=<b>&nbsp;Identifiant&nbsp;: </b>
+ADMIN_ADDUSER_CREATEUR=<b>&nbsp;Cr&eacute;ateur&nbsp;: </b>
+ADMIN_ADDUSER_CHANGE1=<br><br><br><b>Veuillez changer votre mot de passe avant de pouvoir acc&eacute;der aux documents de la base.</b><input type="hidden" name="infolog" value="yes"><br><br><b>Tapez le nouveau mot de passe&nbsp;: </b><input type="password" size="20" name="pwd" value="[password]"><br><br><b>Retapez le nouveau mot de passe&nbsp;: </b><input type="password" size="20" name="pwdbis" value="[password]">
+ADMIN_ADDUSER_CHANGE2=<br><br><br><b>Vous pouvez changer votre mot de passe si vous le souhaitez ci-dessous.</b><br><br><b>Tapez le nouveau mot de passe&nbsp;: </b><input type="password" size="20" name="pwd" value="[password]"><br><br><b>Retapez le nouveau mot de passe&nbsp;: </b><input type="password" size="20" name="pwdbis" value="[password]">
+ADMIN_ADDUSER_CHANGE3=<input type="hidden" name="pwd" value="modif"><input type="hidden" name="pwdbis" value="modif">
+ADMIN_ADDUSER_CHANGE4=<br><br><b>Mot de passe&nbsp;: </b><input type="password" size="20" name="pwd" value="[password]">
+ADMIN_ADDUSER_CHANGE5=<input type="hidden" name="pwd" value="modif">
+ADMIN_ADDUSER_USER=Utilisateur
+ADMIN_ADDUSER_CONTRIB=Contributeur
+ADMIN_ADDUSER_ADMIN=Administrateur
+ADMIN_ADDUSER_MOTDEPASSE=<b>Changement de mot de passe possible pour l'utilisateur&nbsp;:</b>
+ADMIN_ADDUSER_OUI=Oui
+ADMIN_ADDUSER_NON=Non
+ADMIN_ADDUSER_CLASSES=<b>&nbsp;Classes de documents autoris&eacute;es et niveaux / dates associ&eacute;s</b><br>(s&eacute;par&eacute;es par des virgules, sans espace, exemple: "<b>DR:1:1-1-2000,DO:0:0</b>")&nbsp;:
+ADMIN_ADDUSER_DOCS=<b>&nbsp;Documents autoris&eacute;s et niveaux / dates :associ&eacute;s</b><br>(s&eacute;par&eacute;s par des virgules, sans espace, exemple: "<b>10:0:0,15:1:1-2-2002</b>")&nbsp;:
+ADMIN_ADDUSER_GDOCS=<b>&nbsp;Groupes de documents autoris&eacute;s et niveaux / dates associ&eacute;s</b><br>(s&eacute;par&eacute;s par des virgules, sans espace, exemple: "<b>groupe1:1:0,groupe2:0:1-2-2002</b>")&nbsp;:
+ADMIN_ADDUSER_AJOUTER=Ajouter
+ADMIN_ADDUSER_MODIFIER=Modifier
+ADMIN_ADDUSERGROUP=Add USERGROUP form
+ADMIN_ADDUSERGROUP_AJOUT=Ajout d'un groupe d'utilisateurs
+ADMIN_ADDUSERGROUP_COPIE=Copie d'un groupe d'utilisateur
+ADMIN_ADDUSERGROUP_MODIF=Modification d'un groupe d'utilisateur
+ADMIN_ADDUSERGROUP_PANNEAU=<h2 align="center" class="addusergroup">[basenom]&nbsp;:&nbsp;[addusergroup_mode]</h2><hr width="30%" class="addusergroup"><br><div align="center" class="addusergroup"><form method="post" action="[url10]$0">[header_hidden][addusergroup_nom]<input type="text" size="20" name="name" value="[name]"><br><br>[meta]<br><br><hr width="15%">[addusergroup_users] <br><br><textarea rows="4" cols="80" name="users">[users]</textarea><br><hr width="15%">[adduser_classes]<br><br><input type="text" size="80" name="autdocclasses" value="[classes]"><br><hr width="10%">[adduser_docs]<br><br><input type="text" size="80" name="autdocs" value="[docs]"><br><hr width="10%">[adduser_gdocs]<br><br><input type="text" size="80" name="autdocgroups" value="[gdocs]"><br><hr width="10%"><br><input type="hidden" name="mode" value="add_copie"><input type="button" value=" [adduser_ajouter] " onclick="test_form2(document.forms[0],'[err13]');"></form></div>
+ADMIN_ADDUSERGROUP_MODIFPANNEAU=<h2 align="center" class="addusergroup">[basenom]&nbsp;:&nbsp;[addusergroup_mode]</h2><hr width="30%" class="addusergroup"><br><div align="center" class="addusergroup"><form method="post" action="[url10]$0">[header_hidden][addusergroup_nom]<input type="hidden" name="name" value="[usergroupid]"><b><font color="blue" size="+1">[usergroupid]</font></b><br><br>[meta]<br><br><hr width="15%">[addusergroup_users] <br><br><textarea rows="4" cols="80" name="users">[users]</textarea><br><hr width="15%">[adduser_classes]<br><br><input type="text" size="80" name="autdocclasses" value="[classes]"><br><hr width="10%">[adduser_docs]<br><br><input type="text" size="80" name="autdocs" value="[docs]"><br><hr width="10%">[adduser_gdocs]<br><br><input type="text" size="80" name="autdocgroups" value="[gdocs]"><br><hr width="10%"><br><input type="hidden" name="mode" value="modif"><input type="button" value=" [adduser_modifier] " onclick="test_form2(document.forms[0],'[err13]');"></form></div>
+ADMIN_ADDUSERGROUP_NOM=<b>&nbsp;Nom&nbsp;: </b>
+ADMIN_ADDUSERGROUP_USERS=<b>&nbsp;Utilisateurs du groupe</b><br>(s&eacute;par&eacute;s par des virgules, sans espace, exemple: "<b>user1,user2</b>")&nbsp;:
+ADMIN_ADDDOCGROUP=Add DOCGROUP form
+ADMIN_ADDDOCGROUP_AJOUT=Ajout d'un groupe de documents
+ADMIN_ADDDOCGROUP_COPIE=Copie d'un groupe de documents
+ADMIN_ADDDOCGROUP_MODIF=Modification d'un groupe de documents
+ADMIN_ADDDOCGROUP_PANNEAU=<h2 align="center" class="adddocgroup">[basenom]&nbsp;:&nbsp;[adddocgroup_mode]</h2><hr width="30%" class="adddocgroup"><br><div align="center" class="adddocgroup"><form method="post" action="[url11]$0">[header_hidden][adddocgroup_nom]<input type="text" size="20" name="name" value="[name]"><br><br>[meta]<br><br><hr width="15%">[adddocgroup_docs]<br><br><textarea rows="16" cols="80" name="docs">[docs]</textarea><hr width="15%"><input type="hidden" name="mode" value="add_copie"><input type="button" value=" [adduser_ajouter] " onclick="test_form2(document.forms[0],'[err14]');"></form></div>
+ADMIN_ADDDOCGROUP_MODIFPANNEAU=<h2 align="center" class="adddocgroup">[basenom]&nbsp;:&nbsp;[adddocgroup_mode]</h2><hr width="30%" class="adddocgroup"><br><div align="center" class="adddocgroup"><form method="post" action="[url11]$0">[header_hidden][adddocgroup_nom]<input type="hidden" name="name" value="[docgroupid]"><b><font color="blue" size="+1">[docgroupid]</font></b><br><br>[meta]<br><br><hr width="15%">[adddocgroup_docs]<br><br><textarea rows="16" cols="80" name="docs">[docs]</textarea><hr width="15%"><input type="hidden" name="mode" value="modif"><input type="button" value=" [adduser_modifier] " onclick="test_form2(document.forms[0],'[err14]');"></form></div>
+ADMIN_ADDDOCGROUP_NOM=<b>&nbsp;Nom du groupe&nbsp;: </b>
+ADMIN_ADDDOCGROUP_DOCS=<b>&nbsp;Identifiants des documents du groupe</b> :<br>(&agrave; &eacute;crire sous la forme : <code>iddebut-idfin,id</code>)
+ADMIN_SUPPRUSER=Suppression d'un utilisateur
+ADMIN_SUPPRUSER_RET1=<h2 align="center">L'utilisateur "<b>
+ADMIN_SUPPRUSER_RET2=</b>" a &eacute;t&eacute; supprim&eacute;.<br></h2>
+ADMIN_SUPPRUSERGROUP=Suppression d'un groupe d'utilisateurs
+ADMIN_SUPPRUSERGROUP_RET1=<h2 align="center"> Le groupe d'utilisateurs "<b>
+ADMIN_SUPPRUSERGROUP_RET2=</b>" a &eacute;t&eacute; supprim&eacute;.<br></h2>
+ADMIN_SUPPRDOCGROUP=Suppression d'un groupe de documents
+ADMIN_SUPPRDOCGROUP_RET1=<h2 align="center"> Le groupe de documents "<b>
+ADMIN_SUPPRDOCGROUP_RET2=</b>" a &eacute;t&eacute; supprim&eacute;.<br></h2>
+ADMIN_HEADER=DHEADER
+ADMIN_ERR15=<h2 align="center">Les deux mots de passes tap&eacute;s sont diff&eacute;rents.</h2><h2 align="center">Veuillez recommencer l'op&eacute;ration.</h2><br>
+ADMIN_ERR16=Les deux mots de passes tap\E9s sont diff\E9rents.
+ADMIN_ERR17=Op\E9ration interdite.
+ADMIN_ERR18_1=<h2 align="center">L'utilisateur "<b>
+ADMIN_ERR18_2=</b>" existe d&eacute;j&agrave;.</h2><h2 align="center">Veuillez choisir un autre login et recommencer l'op&eacute;ration.</h2><br>
+ADMIN_ERR19_1=L'utilisateur 
+ADMIN_ERR19_2= existe d\E9j\E0
+ADMIN_ERR20=<p>Une entr&eacute;e parmi les classes de documents autoris&eacute;es n'est pas valide. Veuillez recommencer l'op&eacute;ration.</p>
+ADMIN_ERR21=Une entr\E9e parmi les classes de documents autoris\E9es n'est pas valide
+ADMIN_ERR22_1=<h2 align="center">Le groupe de documents "<b>
+ADMIN_ERR22_2=</b>" n'existe pas</h2>
+ADMIN_XERR22_1=Le groupe de documents 
+ADMIN_XERR22_2= n'existe pas
+ADMIN_ERR23_1=Le groupe de documents 
+ADMIN_ERR23_2= n'existe pas
+ADMIN_ADDUSER_RET1=<h2 align="center">L'utilisateur "<b>
+ADMIN_ADDUSER_RET2=</b>" est 
+ADMIN_ADDUSER_RET3=modifi&eacute;.</h2>
+ADMIN_ADDUSER_RET4=ajout&eacute;.</h2>
+ADMIN_ADDUSER_RET5=L'utilisateur 
+ADMIN_ADDUSER_RET6= est 
+ADMIN_ADDUSER_RET7=modifi\E9.
+ADMIN_ADDUSER_RET8=ajout\E9.
+ADMIN_ERR24_1=<h2 align="center">Le groupe d'utilisateur "<b>
+ADMIN_ERR24_2=</b>" existe d&eacute;j&agrave;. Veuillez recommencer l'op&eacute;ration.</h2>
+ADMIN_XERR24_1=Le groupe d'utilisateur 
+ADMIN_XERR24_2= existe deja. Veuillez recommencer l'operation.
+ADMIN_ERR25_1=<h2 align="center">L'utilisateur "<b>
+ADMIN_ERR25_2=</b>" n'existe pas ou ne peut &ecirc;tre dans un groupe.<br></h2>
+ADMIN_XERR25_1=L'utilisateur 
+ADMIN_XERR25_2= n'existe pas ou ne peut etre dans un groupe.
+ADMIN_ERR26=<p>Une entr&eacute;e parmi les classes de documents autoris&eacute;es n'est pas valide. Veuillez recommencer l'op&eacute;ration.</p>
+ADMIN_XERR26=Une entree parmi les classes de documents autorisees n'est pas valide. Veuillez recommencer l'operation.
+ADMIN_ADDUSERGROUP_RET1=<h2 align="center">L'utilisateur "<b>
+ADMIN_ADDUSERGROUP_RET2=</b>" est ajout&eacute; au groupe.<br></h2>
+ADMIN_ADDUSERGROUP_XRET1=L'utilisateur 
+ADMIN_ADDUSERGROUP_XRET2= est ajoute au groupe.
+ADMIN_ADDUSERGROUP_RET3=<h2 align="center">Le groupe d'utilisateurs "<b>
+ADMIN_ADDUSERGROUP_RET4=</b>" est 
+ADMIN_ADDUSERGROUP_RET5=modifi&eacute;.</h2>
+ADMIN_ADDUSERGROUP_RET6=ajout&eacute;.</h2>
+ADMIN_ADDUSERGROUP_XRET3=Le groupe d'utilisateurs 
+ADMIN_ADDUSERGROUP_XRET4= est 
+ADMIN_ADDUSERGROUP_XRET5=modifie.
+ADMIN_ADDUSERGROUP_XRET6=ajoute.
+ADMIN_ADDDOCGROUP_RET1=<br><br><br><br><br><br><h2 align="center">Le groupe de documents "<b>
+ADMIN_ADDDOCGROUP_RET2=</b>" est 
+ADMIN_ADDDOCGROUP_RET3=modifi&eacute;.</h2>
+ADMIN_ADDDOCGROUP_RET4=ajout&eacute;.</h2>
+ADMIN_ADDDOCGROUP_XRET2_1=Le groupe de documents 
+ADMIN_ADDDOCGROUP_XRET2_2= est 
+ADMIN_ADDDOCGROUP_XRET3=modifie.
+ADMIN_ADDDOCGROUP_XRET4=ajoute.
+ADMIN_ERR27=</b>" existe d&eacute;j&agrave;. Veuillez choisir un autre nom et recommencer l'op&eacute;ration.</h2>
+ADMIN_XERR27_1=Le groupe de documents 
+ADMIN_XERR27_2= existe deja. Veuillez choisir un autre nom et recommencer l'operation.
+BALBEGIN_ERR=<erreur>
+BALEND_ERR=</erreur>
+ADMIN_ERR28=Variable TIMEOUT ou TIMEINUT non d\E9finie
+ADMIN_ERR29=Votre identifiant ou votre mot de passe est invalide
+ADMIN_ERR30=le serveur est injoignable
+ADMIN_ERR31=le serveur refuse les connections
+ADMIN_ERR32=le serveur ne repond pas
+ADMIN_ERR33=erreur inconnue
+ADMIN_ERR34=Connection invalide
+ADMIN_ERR35=<note>Intervalle entre deux modifications de mot de passe trop court.</note>
+ADMIN_ERR36_1=<h2 align="center">Intervalle entre deux modifications de mot de passe trop court.<br>
+ADMIN_ERR36_2= est le minimum pour l'utilisateur courant.</h2>
+ADMIN_ERR37=<note>Erreur inconnue.</note>
+ADMIN_ERR38=<h2 align="center">Erreur inconnue.</h2>
+ADMIN_ERR39=Un seul serveur doit etre\nchoisi pour cette operation.
+ADMIN_ERR40=Un seul document doit etre\nchoisi pour cette operation.
+ADMIN_CONN=connect&eacute;
+ADMIN_CONN_META1=<div align="center">Vous &ecirc;tes connect&eacute;s sur les bases suivantes :<br>
+ADMIN_CONN_META2=</div>
+ADMIN_CONN_CLONE=clone
+ADMIN_PASS_RET1=<note>Le mot de passe a \E9t\E9 modifi\E9.</note>
+ADMIN_PASS_RET2=<h2 align="center">Le mot de passe a &eacute;t&eacute; modifi&eacute;.</h2>
+ADMIN_PASS_RET3=<note>Mot de passe inchang\E9.</note>
+ADMIN_PASS_RET4=<h2 align="center">Mot de passe inchang&eacute;.</h2>
+ADMIN_ENTREE_MES1=<h1 align="center">Bienvenue dans la base 
+ADMIN_ENTREE_MES2=</h1><h2 align="center">sous XediX Tera Solution <sup>(TM)</sup></h2><hr width="30%"><p align="center">Vous pouvez maintenant utiliser les menus ci-contre en tant que "
+ADMIN_ENTREE_MES3="<hr width="30%"></p>
+IMPORT_ERR1=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Pas de filtre configur&eacute; pour cette base.</p>
+IMPORT_ERR2_1=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur sur le nom du r&eacute;pertoire data pour le filtre 
+IMPORT_ERR2_2= ou filtre 
+IMPORT_ERR2_3= non existant (voir IMPORTCMDS de config.ini).</p>
+IMPORT_ERR3=Vous devez choisir un nom de cas
+IMPORT_ERR4_1=<h2 class="adddoc" align="center">Filtre 
+IMPORT_ERR4_2= inconnu.</h2>
+IMPORT_XERR4_1=Filtre 
+IMPORT_XERR4_2= inconnu.
+IMPORT_ERR5_1=<h2 class="adddoc" align="center">Cas inaccessible 
+IMPORT_ERR5_2=.</h2>
+IMPORT_XERR5_1=Cas inaccessible 
+IMPORT_XERR5_2=.
+IMPORT_ERR6=<h2 class="adddoc" align="center">Impossible d'extraire votre archive.</h2>
+IMPORT_XERR6=Impossible d'extraire votre archive.
+IMPORT_ERR7=<h2 class="adddoc" align="center">Impossible de soumettre votre cas. R&eacute;essayez.</h2>
+IMPORT_XERR7=Impossible de soumettre votre cas. Reessayez.
+IMPORT_ERR8_1=<h2 class="purgecas" align="center">Filtre inconnu 
+IMPORT_ERR8_2=.</h2>
+IMPORT_XERR8_1=Filtre 
+IMPORT_XERR8_2= inconnu.
+IMPORT_ERR9_1=<h2 class="purgecas" align="center">Cas inaccessible 
+IMPORT_ERR9_2=.</h2>
+IMPORT_XERR9_1=Cas inaccessible 
+IMPORT_XERR9_2=.
+IMPORT_ERR10_1=<h2 class="purgecas" align="center">Impossible de purger votre cas 
+IMPORT_ERR10_2=.</h2>
+IMPORT_XERR10_1=Impossible de purger votre cas 
+IMPORT_XERR10_2=.
+IMPORT_ERR11_1=<h2 class="creercas" align="center">Filtre 
+IMPORT_ERR11_2= inconnu.</h2>
+IMPORT_XERR11_1=Filtre 
+IMPORT_XERR11_2= inconnu.
+IMPORT_ERR12=<h2 class="creercas" align="center">Impossible de cr&eacute;er un nouveau cas.</h2>
+IMPORT_XERR12=Impossible de cr&eacute;er un nouveau cas.
+IMPORT_ERR13=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur sur le nom du r&eacute;pertoire spool</p>
+IMPORT_ERR14=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur sur le nom du r&eacute;pertoire log</p>
+IMPORT_ERR15=Vous devez choisir un nom de travail
+IMPORT_ERR16=Vous devez choisir un suffixe pour les logs
+IMPORT_ERR17_1=<h2 class="purgetravail" align="center">Travail inaccessible 
+IMPORT_ERR17_2=.</h2>
+IMPORT_XERR17_1=Travail inaccessible 
+IMPORT_XERR17_2=.
+IMPORT_ERR18_1=<h2 class="purgetravail" align="center">Impossible de purger votre travail 
+IMPORT_ERR18_2=.</h2>
+IMPORT_XERR18_1=Impossible de purger votre travail 
+IMPORT_XERR18_2=.
+IMPORT_ERR19_1=<h2 class="affichelogs" "align="center">Logs inaccessibles 
+IMPORT_ERR19_2=.</h2>
+IMPORT_XERR19_1=Logs inaccessibles 
+IMPORT_XERR19_2=.
+IMPORT_ERR20=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur sur le nom du r&eacute;pertoire log.</p>
+IMPORT_XERR20=Erreur sur le nom du repertoire log.
+IMPORT_ERR21=Vous devez choisir une log
+IMPORT_ERR22_1=<h2 class="affichelog" align="center">Log inaccessible 
+IMPORT_ERR22_2=.</h2>
+IMPORT_XERR22_1=Log inaccessible 
+IMPORT_XERR22_2=.
+IMPORT_ERR23=<p align="center">Veuillez contacter l'administrateur en lui communiquant le message suivant : <br><br><b>Erreur d'ouverture du fichier log.</p>
+IMPORT_XERR23=Erreur d'ouverture du fichier log.
+IMPORT_ERR24_1=<h2 class="purgelogs" align="center">Logs inaccessibles 
+IMPORT_ERR24_2=.</h2>
+IMPORT_XERR24_1=Logs inaccessibles 
+IMPORT_XERR24_2=.
+IMPORT_ERR25_1=<h2 class="purgelogs" align="center">Impossible de purger vos logs 
+IMPORT_ERR25_2=.</h2>
+IMPORT_XERR25_1=Impossible de purger vos logs 
+IMPORT_XERR25_2=.
+IMPORT_ERR26=<h2 align="center">Probl&eacute;me de synchronisation (serveurs injoignable)</h2>
+IMPORT_ERR27=<h2 align="center">Probl&eacute;me de synchronisation (inconnu)</h2>
+IMPORT_ERR28=<b>Erreur : Le document existe d&eacute;j&agrave; et le param&egrave;tre remplace=yes n'est pas donn&eacute;.</b>
+IMPORT_XERR28=Erreur : Le document existe deja et le parametre remplace=yes n'est pas donne.
+IMPORT_ERR29=<b>Erreur : document non import&eacute;.</b>
+IMPORT_XERR29=Erreur : document non importe.
+IMPORT_ERR30=<b>Erreur : document en cours d'import.</b>
+IMPORT_XERR30=Erreur : document en cours d'import.
+IMPORT_ERR31=<b>Erreur : donnez un identifiant pour le document.</b>
+IMPORT_XERR31=Erreur : donnez un identifiant pour le document.
+IMPORT_ADDDOC_TITRE=Ajout DOCUMENT
+IMPORT_ADDDOC_FAIT=<b>Le document a &eacute;t&eacute; import&eacute;.</b>
+IMPORT_ADDDOC_XFAIT=Le document a ete importe.
+IMPORT_SUPPRDOCS=Suppression de documents
+IMPORT_SUPPRDOCS_RET0_1=<h2 align="center">Suppression interdite pour 
+IMPORT_SUPPRDOCS_RET0_2=.</h2>
+IMPORT_SUPPRDOCS_XRET0_1=Suppression interdite pour 
+IMPORT_SUPPRDOCS_XRET0_2=.
+IMPORT_SUPPRDOCS_RET1=<h2 align="center">Le document "<b>
+IMPORT_SUPPRDOCS_RET2=</b>" a &eacute;t&eacute; supprim&eacute;.</h2>
+IMPORT_ADDDOCS=Import de documents
+IMPORT_ADDDOCS_PANNEAU=<h2 class="importdoc" align="center"><b><i>[basenom]&nbsp;:&nbsp;Import de documents</i></b></h2><hr width="30%" class="importdoc"><br><br><form method="post" action="[url12]$0" enctype="multipart/form-data"><div class="importsgml" align="center"><div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div><div class="rech_options">[header_hidden]<br>[adddocs_cas_choix]<br>[adddocs_strcas]<input type="text" size="20" name="strcas" value="[strcas]"><br><select name="nomcas">[liste_cas]</select><br><input type="button" value="[adddocs_cas_effacer]" onclick="xsel2(document.forms[0],'[url5]');">&nbsp;<input type="button" value="[adddocs_cas_creer]" onclick="xsel3(document.forms[0],'[url6]');"><br><br>[meta][adddocs_extraire]<br><br>[adddocs_remplace][adddocs_xml][adddocs_valid][adddocs_enracine][adddocs_encoding]<input type="text" size="20" name="encoding" value="[xencoding]"><br>[adddocs_catalog]<input type="text" size="20" name="catalog" value="[xcatalog]"><br>[adddocs_imgcur]<input type="text" size="20" name="imgcur" value="[ximgcur]"><br>[adddocs_elems]<input type="text" size="80" name="elems" value="[elems]"><br>[add_menutype]<input type="hidden" name="output" value="[output]"></div>[adddocs_basename]<input type="text" size="20" name="basename" value="[basename]"><br>[adddocs_id]<input type="text" size="20" name="id" value="[xid]"><br>[adddocs_class]<input type="text" size="20" name="class" value="[xclas]"><br>[adddocs_lang]<input type="text" size="20" name="lang" value="[xlang]"><br>[adddocs_data][add_data]</div></form>[admin_retour]
+IMPORT_ADDDOCS_MODIFPANNEAU=<h2 class="importdoc" align="center"><b><i>[basenom]&nbsp;:&nbsp;Import de documents</i></b></h2><hr width="30%" class="importdoc"><br><br><form method="post" action="[url12]$0" enctype="multipart/form-data"><div class="importsgml" align="center"><div class="rech_options_bouton"><input type="button" value="Options" onclick="options(document,'rech_options');"></div><div class="rech_options">[header_hidden][meta][adddocs_extraire]<br><br>[adddocs_remplace][adddocs_xml][adddocs_valid][adddocs_enracine][adddocs_encoding]<input type="text" size="20" name="encoding" value="[xencoding]"><br>[adddocs_catalog]<input type="text" size="20" name="catalog" value="[xcatalog]"><br>[adddocs_imgcur]<input type="text" size="20" name="imgcur" value="[ximgcur]"><br>[adddocs_elems]<input type="text" size="80" name="elems" value="[elems]"><br>[add_menutype]<input type="hidden" name="output" value="[output]"></div>[adddocs_basename]<input type="text" size="20" name="basename" value="[basename]"><br>[adddocs_id]<input type="text" size="20" name="id" value="[xid]"><br>[adddocs_class]<input type="text" size="20" name="class" value="[xclas]"><br>[adddocs_lang]<input type="text" size="20" name="lang" value="[xlang]"><br><input type="hidden" name="strcas" value="[strcas]"><input type="hidden" name="nomcas" value="[nomcas]"><input type="hidden" name="purgecas" value="yes">[modif_data]</div></form>[admin_retour]
+IMPORT_ADDDOCS_SPOOLPANNEAU=<h2 class="importdoc" align="center"><b><i>[basenom]&nbsp;:&nbsp;Import de documents</i></b></h2><hr width="30%" class="importdoc"><br><br><form method="post" action="[url4]$0" enctype="multipart/form-data"><div class="importdoc" align="center">[header_hidden][meta][adddocs_filtre]<br><select name="filtre" onchange="xsel(document.forms[0],'[url3]');">[liste_filtres]</select><br><br>[adddocs_param]<br><select name="params" size="4" multiple>[parametres]</select><br>[adddocs_traite][adddocs_extraire]<br>[adddocs_strlogs]<input type="text" size="20" name="strlogs" value="[strlogs]"><br><br>[adddocs_cas_spoolchoix]<br>[adddocs_strcas]<input type="text" size="20" name="strcas" value="[strcas]"><br><select name="nomcas">[liste_cas]</select><br><input type="button" value="[adddocs_cas_effacer]" onclick="xsel2(document.forms[0],'[url5]');">&nbsp;<input type="button" value="[adddocs_cas_creer]" onclick="xsel3(document.forms[0],'[url6]');"><br><br>[add_menutype]<b>Documents &agrave; importer&nbsp;:</b><br>(archive du type .ZIP, .TAR, .TAR.GZ ou .TGZ aux conventions du filtre "[filtre]")<br>[add_data]</div></form><div class="importdoc" align="center"><a href="javascript:xsel3(document.forms[0],'[url7]');">[logs_acces]</a></div>[admin_retour]
+IMPORT_ADDDOCS_MENUTYPE=<div class="importtype">Type de formulaire&nbsp;:&nbsp;<select name="type" onchange="xadddocs(document.forms[0],'[url]')">[tabtype]</select></div><br>
+IMPORT_ADDDOCS_DATABIN=databin;databin0;databin1
+IMPORT_ADDDOCS_TYPE=Saisie simple;Avec un fichier binaire;Un fichier XML et un fichier binaire;Un fichier XML et deux fichiers binaires;people;PUBLIC "CEA/DIF//DTD Rapports tables anciennes 1.4//EN";PUBLIC "-//Euroclid//DTD CEA//FR"
+IMPORT_ADDDOCS_SAISIE=<textarea name="data" rows="4" cols="80" "wrap="virtual">[data]</textarea><br><input type="submit" value="Importer">|<textarea name="data" rows="4" cols="80" "wrap="virtual">[data]</textarea><br><b>Saisissez un fichier suppl&eacute;mentaire ci-dessous&nbsp;:</b><br><input type="file" name="databin" size="80"><br><input type="submit" value="Importer">|<input type="file" name="data" size="80"><br><b>Saisissez un fichier suppl&eacute;mentaire ci-dessous&nbsp;:</b><br><input type="file" name="databin" size="80"><br><input type="submit" value="Importer">|<input type="file" name="data" size="80"><br><b>Saisissez un fichier suppl&eacute;mentaire ci-dessous&nbsp;:</b><br><input type="file" name="databin0" size="80"><br><b>Saisissez un fichier suppl&eacute;mentaire ci-dessous&nbsp;:</b><br><input type="file" name="databin1" size="80"><br><input type="submit" value="Importer">|personid&nbsp;:<input type="text" name="person" value=""><br>name&nbsp;:<input type="text" name="name" value=""><br>emailaddress&nbsp;:<input type="text" name="emailaddress" value=""><br>phone&nbsp;:<input type="text" name="phone" value=""><br>street&nbsp;:<input type="text" name="street" value=""><br>city&nbsp;:<input type="text" name="city" value=""><br>country&nbsp;:<input type="text" name="country" value=""><br>province&nbsp;:<input type="text" name="province" value=""><br>zipcode&nbsp;:<input type="text" name="zipcode" value=""><br>homepage&nbsp;:<input type="text" name="homepage" value=""><br>creditcard&nbsp;:<input type="text" name="creditcard" value=""><br><br><input type="hidden" name="data" value=""><input type="button" value="Importer" onclick="javascript:import_people(document.forms\[0\]);">|<br>FMT&nbsp;:<textarea name="FMT" rows="1" cols="80"></textarea><br>IDENTITE&nbsp;:<input type="text" name="IDENTITE" value="">, CLASS&nbsp;:<input type="text" name="CLASS" value="">, NATURE&nbsp;:<input type="text" name="NATURE" value="">, CBARRE&nbsp;:<input type="text" name="CBARRE" value=""><br>EMETLOGO&nbsp;:<input type="text" name="EMETLOGO" value="">, EMESIGLE&nbsp;:<input type="text" name="EMESIGLE" value="">, EMETNO&nbsp;:<input type="text" name="EMETNO" value="">, EMETDATE&nbsp;:<input type="text" name="EMETDATE" value=""><br>DIFFDATE&nbsp;:<input type="text" name="DIFFDATE" value="">, RCPTNO&nbsp;:<input type="text" name="RCPTNO" value="">, RCPTDATE&nbsp;:<input type="text" name="RCPTDATE" value="">, MTITRE&nbsp;:<input type="text" name="MTITRE" value=""><br>MPAYS&nbsp;:<input type="text" name="MPAYS" value="">, MVILLE&nbsp;:<input type="text" name="MVILLE" value="">, MDATEDEB&nbsp;:<input type="text" name="MDATEDEB" value="">, MDATEFIN&nbsp;:<input type="text" name="MDATEFIN" value=""><br><br>AUTEURS&nbsp;:<textarea name="AUTEURS" rows="4" cols="80"></textarea><br>PROJET&nbsp;:<input type="text" name="PROJET" value="">, NPAGES&nbsp;:<input type="text" name="NPAGES" value="">, NOMVERIF&nbsp;:<input type="text" name="NOMVERIF" value="">, SIGNVER&nbsp;:<input type="text" name="SIGNVER" value=""><br><br>RESUME&nbsp;:<textarea name="RESUME" rows="4" cols="80"></textarea><br>RESCOURT&nbsp;:<input type="text" name="RESCOURT" value="">, DESC&nbsp;:<input type="text" name="DESC" value="">, ORGCTRE&nbsp;:<input type="text" name="ORGCTRE" value="">, ORGDIR&nbsp;:<input type="text" name="ORGDIR" value=""><br>ORGDEP&nbsp;:<input type="text" name="ORGDEP" value="">, ORGSERV&nbsp;:<input type="text" name="ORGSERV" value="">, ORGLAB&nbsp;:<input type="text" name="ORGLAB" value="">, <br>AVERT&nbsp;:<textarea name="AVERT" rows="4" cols="80"></textarea><br><br>CORPS&nbsp;:<textarea name="CORPS" rows="40" cols="80"></textarea><br><br>COMPLEM&nbsp;:<textarea name="COMPLEM" rows="4" cols="80"></textarea><br><br>DIFF&nbsp;:<textarea name="DIFF" rows="4" cols="80"></textarea><br><br><input type="hidden" name="data" value=""><input type="button" value="Importer" onclick="javascript:import_doccea1(document.forms\[0\]);">|<br>IDENTITE&nbsp;:<input type="text" name="IDENTITE" value="">, CLASS&nbsp;:<input type="text" name="CLASS" value="">, NATURE&nbsp;:<input type="text" name="NATURE" value="">, CBARRE&nbsp;:<input type="text" name="CBARRE" value=""><br>EMETLOGO&nbsp;:<input type="text" name="EMETLOGO" value="">, EMESIGLE&nbsp;:<input type="text" name="EMESIGLE" value="">, EMETNO&nbsp;:<input type="text" name="EMETNO" value="">, EMETDATE&nbsp;:<input type="text" name="EMETDATE" value=""><br>DIFFDATE&nbsp;:<input type="text" name="DIFFDATE" value="">, RCPTNO&nbsp;:<input type="text" name="RCPTNO" value="">, RCPTDATE&nbsp;:<input type="text" name="RCPTDATE" value="">, MTITRE&nbsp;:<input type="text" name="MTITRE" value=""><br>MPAYS&nbsp;:<input type="text" name="MPAYS" value="">, MVILLE&nbsp;:<input type="text" name="MVILLE" value="">, MDATEDEB&nbsp;:<input type="text" name="MDATEDEB" value="">, MDATEFIN&nbsp;:<input type="text" name="MDATEFIN" value=""><br><br>AUTEURS&nbsp;:<textarea name="AUTEURS" rows="4" cols="80"></textarea><br>PROJET&nbsp;:<input type="text" name="PROJET" value="">, NPAGES&nbsp;:<input type="text" name="NPAGES" value="">, NOMVERIF&nbsp;:<input type="text" name="NOMVERIF" value="">, SIGNVER&nbsp;:<input type="text" name="SIGNVER" value=""><br><br>RESUME&nbsp;:<textarea name="RESUME" rows="4" cols="80"></textarea><br>RESCOURT&nbsp;:<input type="text" name="RESCOURT" value="">, DESC&nbsp;:<input type="text" name="DESC" value=""><br><br>CORPS&nbsp;:<textarea name="CORPS" rows="40" cols="80"></textarea><br><br>COMPLEM&nbsp;:<textarea name="COMPLEM" rows="4" cols="80"></textarea><br><br>DIFF&nbsp;:<textarea name="DIFF" rows="4" cols="80"></textarea><br><br><input type="hidden" name="data" value=""><input type="button" value="Importer" onclick="javascript:import_doccea2(document.forms\[0\]);">
+IMPORT_ADDDOCS_MODIFTYPE=people;PUBLIC "CEA/DIF//DTD Rapports tables anciennes 1.4//EN";PUBLIC "-//Euroclid//DTD CEA//FR"
+IMPORT_ADDDOCS_MODIFSAISIE=rex:<-1|0>;people<1|r([contenu]<br><input type="hidden" name="data" value=""><input type="button" value="Importer" onclick="javascript:import_people(document.forms[0]);">)16>;person<1|r([nombal]id&nbsp;:<input type="text" name="[nombal]" value="[attrid]"><br>[contenu])1>;<rex>person/.*<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[contenu]"><br>)1>;address<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[contenu]"><br>)66>|rex:<-1|0>;doccea<1|r([contenu]<br><b>Saisissez un fichier ou une archive suppl&eacute;mentaire ci-dessous&nbsp;:</b><br><input type="file" name="databin" size="80"><br><input type="hidden" name="data" value=""><input type="button" value="Importer" onclick="javascript:import_doccea1(document.forms[0]);">)16>;adm<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[contenu]">[br4])66>;class<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[attrtype]">[br4])1>;nature<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[attrtype]">[br4])1>;npages<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[attrnbr]">[br4])1>;CORPS<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="40" cols="80">[econtenu]</textarea><br>)1>;<rex>CORPS/.*<-1|15>;auteurs<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>auteurs/.*<-1|15>;fmt<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="1" cols="80">[econtenu]</textarea><br>)1>;<rex>fmt/.*<-1|15>;meta<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>meta/.*<-1|15>;docarch<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>docarch/.*<-1|15>;docnum<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>docnum/.*<-1|15>;complem<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>complem/.*<-1|15>;diff<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>diff/.*<-1|15>;fichqual<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>fichqual/.*<-1|15>;avert<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>avert/.*<-1|15>;resume<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>resume/.*<-1|15>|rex:<-1|0>;doccea<1|r([contenu]<br><b>Saisissez un fichier ou une archive suppl&eacute;mentaire ci-dessous&nbsp;:</b><br><input type="file" name="databin" size="80"><br><input type="hidden" name="data" value=""><input type="button" value="Importer" onclick="javascript:import_doccea2(document.forms[0]);">)16>;adm<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[contenu]">[br4])66>;class<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[attrtype]">[br4])1>;npages<1|r([nombal]&nbsp;:<input type="text" name="[nombal]" value="[attrnbr]">[br4])1>;CORPS<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="40" cols="80">[econtenu]</textarea><br>)1>;<rex>CORPS/.*<-1|15>;auteurs<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>auteurs/.*<-1|15>;meta<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>meta/.*<-1|15>;docarch<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>docarch/.*<-1|15>;docnum<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>docnum/.*<-1|15>;complem<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>complem/.*<-1|15>;diff<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>diff/.*<-1|15>;fichqual<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>fichqual/.*<-1|15>;resume<1|r(<br>[nombal]&nbsp;:<textarea name="[nombal]" rows="4" cols="80">[econtenu]</textarea><br>)1>;<rex>resume/.*<-1|15>
+IMPORT_ADDDOCS_MENUSPOOLTYPE=<div class="importtype">Type de formulaire&nbsp;:&nbsp;<select name="type" onchange="xadddocs(document.forms[0],'[url]')">[tabtype]</select></div><br>
+IMPORT_ADDDOCS_SPOOLTYPE=simple
+IMPORT_ADDDOCS_SPOOLSAISIE=<input type="file" name="ficimport" size="80"><br><br><br><input type="button" value="Importer" onclick="javascript:test_form(document.forms\[0\],'Vous devez choisir un nom de cas');">
+IMPORT_ADDDOCSHEADER=DHEADER
+IMPORT_ADDDOCS_ENCODING=Donnez le nom du code des caract&egrave;res pour votre document (par exemple utf-8)&nbsp;:
+IMPORT_ADDDOCS_CATALOG=Donnez le nom du catalog au sens SGML (catalog ou catalog.none)&nbsp;:
+IMPORT_ADDDOCS_IMGCUR=Donnez un num&eacute;ro &agrave; partir duquel seront num&eacute;rot&eacute; les fichiers li&eacute;s inclus non SGML (images par exemple)&nbsp;:
+IMPORT_ADDDOCS_ELEMS=Donnez un s&eacute;lecteur&nbsp;:
+IMPORT_ADDDOCS_DATA=<br><b>Saisissez votre document XML ci-dessous&nbsp;:</b><br>
+IMPORT_ADDDOCS_REMPLACE=Remplacement si le document existe dans la base&nbsp;:<input type="radio" name="remplace" value="no"[choix0]> Non&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="remplace" value="yes"[choix1]> Oui<br>
+IMPORT_ADDDOCS_XML=Le document est en XML (sinon SGML)&nbsp;:<input type="radio" name="xml" value="no"[choix0]> Non&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="xml" value="yes"[choix1]> Oui<br>
+IMPORT_ADDDOCS_VALID=V&eacute;rification de la validit&eacute; du document&nbsp;:<input type="radio" name="valid" value="no"[choix0]> Non&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="valid" value="yes"[choix1]> Oui<br>
+IMPORT_ADDDOCS_ENRACINE=Cr&eacute;ation table des mati&egrave;res&nbsp;:<input type="radio" name="enracine" value="no"[choix0]> Non&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="enracine" value="yes"[choix1]> Oui<br>
+IMPORT_ADDDOCS_BASENAME=Base(s) pour le document (* ou nom de la base cible)&nbsp;:
+IMPORT_ADDDOCS_ID=ID du document&nbsp;:
+IMPORT_ADDDOCS_CLASS=Classe du document&nbsp;:
+IMPORT_ADDDOCS_LANG=Langue du document&nbsp;:
+IMPORT_ADDDOCS_FILTRE=<b>Choix du filtre&nbsp;:</b>
+IMPORT_ADDDOCS_PARAM=<b>Choix des param&egrave;tres&nbsp;:</b>
+IMPORT_ADDDOCS_TRAITE=<br>Soumettre le traitement&nbsp;:<input type="radio" name="traite" value="no"[choix0]> Non&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="traite" value="yes"[choix1]> Oui
+IMPORT_ADDDOCS_EXTRAIRE=<br>Extraire les archives&nbsp;:<input type="radio" name="extraire" value="no"[choix0]> Non&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="extraire" value="yes"[choix1]> Oui
+IMPORT_ADDDOCS_OUI=Oui
+IMPORT_ADDDOCS_NON=Non
+IMPORT_ADDDOCS_STRCAS=Label du cas pour cr&eacute;ation&nbsp;:&nbsp;
+IMPORT_ADDDOCS_STRLOGS=Label des logs pour lancement de travaux&nbsp;:&nbsp;
+IMPORT_ADDDOCS_CAS_CHOIX=<b>Choix du cas&nbsp;:</b>
+IMPORT_ADDDOCS_CAS_SPOOLCHOIX=<b>Choix du cas&nbsp;:</b>
+IMPORT_ADDDOCS_CAS_EFFACER=Effacer le cas
+IMPORT_ADDDOCS_CAS_CREER=Cr&eacute;er un nouveau cas
+IMPORT_ADDDOCS_IMPORT1_1=<b>Documents &agrave; importer&nbsp;:</b><br>(archive du type .ZIP, .TAR, .TAR.GZ ou .TGZ aux conventions du filtre "
+IMPORT_ADDDOCS_IMPORT1_2=")
+IMPORT_ADDDOCS_IMPORT2=Importer
+IMPORT_ADDDOCS_AJOUT=Ajout de documents
+IMPORT_ADDDOCS_RET1=<p class="adddoc">
+IMPORT_ADDDOCS_RET2_1=<b>L'archive </b>
+IMPORT_ADDDOCS_RET2_2=<b> a &eacute;t&eacute; extraite
+IMPORT_ADDDOCS_RET2_3_1= et le 
+IMPORT_ADDDOCS_RET2_3=.</b>
+IMPORT_ADDDOCS_RET2=<b>Le 
+IMPORT_ADDDOCS_RET2_3_2=cas </b><code>
+IMPORT_ADDDOCS_RET2_3_3=</code><b> a &eacute;t&eacute; soumis &agrave; XediX Tera Solution avec le filtre </b><code>
+IMPORT_ADDDOCS_RET2_3_4=</code><b>
+IMPORT_ADDDOCS_RET2_3_5= sans param&egrave;tres 
+IMPORT_ADDDOCS_RET2_3_5_1= et le param&egrave;tre </b><code>
+IMPORT_ADDDOCS_RET2_3_5_2=</code><b> 
+IMPORT_ADDDOCS_RET2_3_5_1B= et les param&egrave;tres&nbsp;:</b><ul><li><code>
+IMPORT_ADDDOCS_RET2_3_5_2B=</code></li><li><code>
+IMPORT_ADDDOCS_RET2_3_5_3B=</code></li></ul><b>
+IMPORT_ADDDOCS_RET2_3_6=pour traitements et import &eacute;ventuel dans la base </b><code>
+IMPORT_ADDDOCS_RET2_3_7=</code><b>.</p><p class="adddoc">Le suffixe des logs de ce traitement sera&nbsp;:&nbsp;</b><code>"
+IMPORT_ADDDOCS_RET2_3_8="</code></p>
+IMPORT_ADDDOCS_RET2_4=</p>
+IMPORT_PANNEAU_RETOUR=Retour au panneau d'import de documents
+IMPORT_RETOUR=<div align="center"><a href="[url3]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre][header][nometa]">[retour]</a></div>
+IMPORT_ACCES=Acc&egrave;s au panneau d'import de documents
+IMPORT_LOGS_ACCES=Acc&egrave;s au panneau de gestion des travaux et logs des imports de documents
+IMPORT_LOGS_REACCES=R&eacute;afficher le panneau de gestion des travaux et logs des imports de documents
+IMPORT_LOGS_RETOUR=Retour au panneau de gestion des travaux et logs des imports de documents
+IMPORT_LOGS_TRAVAIL_REACCES=R&eacute;afficher les logs
+IMPORT_LOGS_TRAVAIL_RETOUR=Retour au panneau d'affichage des logs
+IMPORT_PURGECAS=Purge de cas
+IMPORT_PURGECAS_RET1_1=<p class="purgecas"><b>Le cas </b><code>
+IMPORT_PURGECAS_RET1_2=</code><b> a &eacute;t&eacute; purg&eacute;.</b></p>
+IMPORT_CREECAS=Cr&eacute;ation de cas
+IMPORT_CREECAS_RET1=
+IMPORT_CREECAS_RET11=<p class="creercas"><b>Un nouveau cas a &eacute;t&eacute; cr&eacute;&eacute; (
+IMPORT_CREECAS_RET12=). Il sera ajout&eacute; &agrave; la liste des cas dans le panneau d'import des documents.</b></p>
+IMPORT_LOGS=Gestion des travaux et logs des imports de documents
+IMPORT_LOGS_PANNEAU=<h2 align ="center" class="panneaulogs"><b><i>[basenom]&nbsp;:&nbsp;Gestion des travaux et logs des imports de documents</i></b></h2><hr width="30%" class="panneaulogs"><br><br><form method="post" action=""><div class="logsdoc" align="center">[header_hidden][meta][logs_travail]<br><select name="nomtravail">[liste_travaux]</select><br><input type="button" value="[travail_purge]" onclick="xselog(document.forms[0],'[url8]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre]&','[err15]');"><br><br>[logs_liste]<br><select name="suflogs">[liste_suflogs]</select><br><input type="button" value="[logs_affiche]" onclick="xselog2(document.forms[0],'[url9]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre]&','[err16]');">&nbsp;<input type="button" value="[logs_purge]" onclick="xselog3(document.forms[0],'[url10]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre]&','[err16]');"></div></form><div class="logsdoc" align="center"><a href="[url3]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre][header][nometa]">[import_acces]</a><br><a href="[url7]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre][header][nometa]">[logs_reacces]
+IMPORT_LOGS_AFFICHEPANNEAU=<h2 class="affichelogs" align="center"><b><i>[basenom]&nbsp;:&nbsp;Affichage des logs d'un travail</i></b></h2><hr width="30%" class="affichelogs"><br><br><form method="post" action=""><div class="affichelogs" align="center">[header_hidden][meta][logs_choix]<br><select name="log">[liste_logs]</select><br><input type="button" value="[logs_affichelog]" onclick="xselogs(document.forms[0],'[url11]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre]&','[err21]','[suflogs]');"></div></form><div class="affichelogs" align="center"><a href="[url7]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre][header][nometa]">[logs_retour]</a><br><a href="[url9]strcas=[strcas]&strlogs=[strlogs]&filtre=[filtre]&suflogs=[suflogs][header][nometa]">[travail_retour]</a></div>
+IMPORT_LOGS_TRAVAIL=<b>Choix du travail en cours&nbsp;:</b>
+IMPORT_LOGS_TRAVAIL_PURGE=Supprimer le travail
+IMPORT_LOGS_LISTE=<b>Liste des logs&nbsp;:</b>
+IMPORT_LOGS_AFFICHE=Afficher les logs
+IMPORT_LOGS_PURGE=Purger les logs
+IMPORT_LOGS_TITRE=Affichage des logs d'un travail
+IMPORT_LOGS_CHOIX=<b>Choix d'une log&nbsp;:</b>
+IMPORT_LOGS_AFFICHELOG=Afficher la log
+IMPORT_PURGETRAVAIL=Purge d'un travail
+IMPORT_PURGETRAVAIL_RET1_1=<p class="purgetravail"><b>Le travail </b><code>
+IMPORT_PURGETRAVAIL_RET1_2=</code><b> a &eacute;t&eacute; purg&eacute;.</b></p>
+IMPORT_LOG_TITRE=Affichage d'une log d'un travail
+IMPORT_PURGELOGS_TITRE=Purge des logs d'un travail
+IMPORT_PURGELOGS_RET1_1=<p class="purgelogs"><b>Les logs de suffixe </b><code>
+IMPORT_PURGELOGS_RET1_2=</code><b> ont &eacute;t&eacute; purg&eacute;s.</b></p>
+IMPORT_SYNC=<h2 align="center">Synchronisation fa&icirc;te</h2>
+
+[WEB]
+WEBPORT=5225
+WEBADMIN=DWEBADMIN
+WEBSERVER=DWEBSERVER
+WEBLISTEN=DWEBPORT
+WEBPROTOCOL=http
+NUMSERVER=1
+WEBBIN=DWEBBIN
+WEBSERVERROOT=DWEBSERVROOT
+WEBDOCUMENTROOT=DWEBHOME/www
+WEBDOCROOTORIG=INSTALL_DIR/web
+WEBCGIBIN=DWEBHOME/$ARCH/bin/cgi-bin/
+WEBDIRCGI=
+WEBCONF=DWEBHOME/conf/apache/conf
+WEBVARROOT=DWEBHOME/conf/apache
+WEBCONFORIG=DWEBCONFORIG
+WEBMOD_XEDIX=yes
+WEBMAXCONN_XEDIX=1000
+WEBMAXCLIENTS=64
+MLISTEMACH=
